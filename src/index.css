@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Police DYS auto-hébergée : ajoute les fichiers OpenDyslexic dans public/fonts/
+   (licence SIL Open Font License, libre) pour activer le switch de police. */
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/fonts/OpenDyslexic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --taille-base: 1rem;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  @apply bg-ivoire text-ink font-lisible;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Police DYS active */
+html[data-police="dys"] body {
+  font-family: "OpenDyslexic", "Lexend", sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+/* Tailles de texte accessibles, toujours en rem */
+html[data-taille="grande"] {
+  font-size: 112.5%;
+}
+
+html[data-taille="tres-grande"] {
+  font-size: 125%;
+}
+
+/* Jamais de texte justifié, ancrage à gauche partout */
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  text-align: left;
+}
+
+/* Coupe les animations si l'élève le demande (confort TDAH) */
+html[data-animations="off"] *,
+html[data-animations="off"] *::before,
+html[data-animations="off"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Focus clavier toujours visible (accessibilité) */
+:focus-visible {
+  outline: 3px solid #4a7bc9;
+  outline-offset: 2px;
+}
+
+.mot-en-cours-lecture {
+  @apply bg-arcenciel-miel/60 rounded px-0.5;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "loi-ohm",
+    "matiere": "physique-chimie",
+    "theme": "Énergie : conversions et transferts",
+    "titre": "La loi d'Ohm",
+    "ordre": 1,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "La loi d'Ohm est la base de tous les calculs de circuits électriques en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La loi d'Ohm relie la tension U et l'intensité I dans un conducteur." },
+          { "id": "b2", "texte": "La formule est U = R × I." },
+          { "id": "b3", "texte": "U se mesure en volts (V)." },
+          { "id": "b4", "texte": "I se mesure en ampères (A)." },
+          { "id": "b5", "texte": "R est la résistance, elle s'exprime en ohms (Ω)." },
+          { "id": "b6", "texte": "Plus la résistance est grande, plus l'intensité est petite pour la même tension." },
+          { "id": "b7", "texte": "On mesure U avec un voltmètre branché en parallèle." },
+          { "id": "b8", "texte": "On mesure I avec un ampèremètre branché en série." }
+        ]
+      },
+      "video": {
+        "url": "",
+        "titre": "Loi d'Ohm - Prof Paul Olivier",
+        "dureeMin": 6
+      },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/circuit-loi-ohm.svg",
+        "alt": "Circuit électrique simple avec générateur, résistance, ampèremètre en série et voltmètre en parallèle",
+        "legendeFalc": "Le courant part du générateur, traverse la résistance, et revient. Le voltmètre mesure U aux bornes de la résistance."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  }
+]

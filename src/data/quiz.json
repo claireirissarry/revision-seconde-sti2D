@@ -1,0 +1,56 @@
+[
+  {
+    "id": "q-fa-1",
+    "chapitreId": "fonction-affine",
+    "question": "Dans f(x) = 3x + 2, quel est le coefficient directeur ?",
+    "choix": ["3", "2", "x", "f(x)"],
+    "bonneReponseIndex": 0,
+    "indice": "Le coefficient directeur est toujours devant le x.",
+    "explicationFalc": "Bien joué. Dans f(x) = a x + b, le nombre devant x est toujours a, le coefficient directeur."
+  },
+  {
+    "id": "q-fa-2",
+    "chapitreId": "fonction-affine",
+    "question": "Dans f(x) = 3x + 2, quelle est l'ordonnée à l'origine ?",
+    "choix": ["3", "2", "0", "x"],
+    "bonneReponseIndex": 1,
+    "indice": "L'ordonnée à l'origine est la valeur quand x = 0.",
+    "explicationFalc": "Exactement. b = 2 est la valeur de f(x) quand x vaut 0."
+  },
+  {
+    "id": "q-fa-3",
+    "chapitreId": "fonction-affine",
+    "question": "Si a est négatif, comment se comporte la droite ?",
+    "choix": ["Elle monte", "Elle descend", "Elle reste horizontale", "Elle disparaît"],
+    "bonneReponseIndex": 1,
+    "indice": "Pense à une pente qui descend une colline.",
+    "explicationFalc": "Oui ! Un coefficient directeur négatif fait descendre la droite quand x augmente."
+  },
+  {
+    "id": "q-oh-1",
+    "chapitreId": "loi-ohm",
+    "question": "Quelle est la formule de la loi d'Ohm ?",
+    "choix": ["U = R × I", "U = R + I", "I = U + R", "R = U × I"],
+    "bonneReponseIndex": 0,
+    "indice": "La tension dépend de la résistance et de l'intensité, multipliées ensemble.",
+    "explicationFalc": "Parfait. U = R × I est la relation fondamentale de la loi d'Ohm."
+  },
+  {
+    "id": "q-oh-2",
+    "chapitreId": "loi-ohm",
+    "question": "Dans quelle unité se mesure la résistance électrique ?",
+    "choix": ["Le volt", "L'ampère", "L'ohm", "Le watt"],
+    "bonneReponseIndex": 2,
+    "indice": "C'est le nom de la loi elle-même !",
+    "explicationFalc": "Exactement, la résistance se mesure en ohms (Ω)."
+  },
+  {
+    "id": "q-oh-3",
+    "chapitreId": "loi-ohm",
+    "question": "Comment se branche un ampèremètre pour mesurer l'intensité ?",
+    "choix": ["En parallèle", "En série", "Il ne se branche pas", "Aux bornes du générateur"],
+    "bonneReponseIndex": 1,
+    "indice": "L'intensité, c'est ce qui traverse le circuit : il faut se mettre sur son chemin.",
+    "explicationFalc": "Oui ! L'ampèremètre se branche en série, sur le chemin du courant."
+  }
+]

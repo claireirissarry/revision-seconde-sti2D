@@ -1,0 +1,72 @@
+[
+  {
+    "id": "portrait-gloria-medecin",
+    "titre": "Gloria, la médecin",
+    "description": "Précise et attentive, Gloria soigne avec rigueur. Débloqué en maîtrisant ton premier chapitre de maths.",
+    "icone": "🩺",
+    "condition": "chapitre:fonction-affine:maitrise"
+  },
+  {
+    "id": "portrait-cameron-ingenieure",
+    "titre": "Cameron, l'ingénieure",
+    "description": "Cameron construit des ponts entre les idées. Débloqué en maîtrisant ton premier chapitre de physique-chimie.",
+    "icone": "🛠️",
+    "condition": "chapitre:loi-ohm:maitrise"
+  },
+  {
+    "id": "portrait-jo-exploratrice",
+    "titre": "Jo, l'exploratrice",
+    "description": "Jo n'a jamais peur de partir à l'aventure. Débloqué après 3 chapitres maîtrisés.",
+    "icone": "🧭",
+    "condition": "chapitres_maitrises:3"
+  },
+  {
+    "id": "portrait-jay-capitaine",
+    "titre": "Jay, la capitaine",
+    "description": "Jay guide son équipage avec calme. Débloqué après 4 chapitres maîtrisés.",
+    "icone": "⚓",
+    "condition": "chapitres_maitrises:4"
+  },
+  {
+    "id": "portrait-phil-artiste-scientifique",
+    "titre": "Phil, l'artiste-scientifique",
+    "description": "Phil transforme les formules en œuvres d'art. Débloqué après 5 chapitres maîtrisés.",
+    "icone": "🎨",
+    "condition": "chapitres_maitrises:5"
+  },
+  {
+    "id": "portrait-luc-aviatrice",
+    "titre": "Luc, la pilote",
+    "description": "Luc vole au-dessus des obstacles. Débloqué après 6 chapitres maîtrisés.",
+    "icone": "✈️",
+    "condition": "chapitres_maitrises:6"
+  },
+  {
+    "id": "portrait-hayle-codeuse",
+    "titre": "Hayle, l'informaticienne",
+    "description": "Hayle écrit des lignes de code comme des poèmes. Débloqué après 7 chapitres maîtrisés.",
+    "icone": "💻",
+    "condition": "chapitres_maitrises:7"
+  },
+  {
+    "id": "portrait-lily-architecte",
+    "titre": "Lily, l'architecte",
+    "description": "Lily dessine des plans qui tiennent debout. Débloqué après 8 chapitres maîtrisés.",
+    "icone": "📐",
+    "condition": "chapitres_maitrises:8"
+  },
+  {
+    "id": "premiere-session",
+    "titre": "Premier pas",
+    "description": "Tu as terminé ta toute première session de révision.",
+    "icone": "✨",
+    "condition": "sessions_terminees:1"
+  },
+  {
+    "id": "streak-7-jours",
+    "titre": "Semaine étincelante",
+    "description": "7 jours consécutifs de révision. Ton ciel brille d'une nouvelle constellation.",
+    "icone": "🌈",
+    "condition": "streak:7"
+  }
+]

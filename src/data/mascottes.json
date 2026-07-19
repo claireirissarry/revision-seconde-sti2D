@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claire-chevaliere",
+    "prenom": "Claire",
+    "role": "Chevalière-géomètre de la Forêt des Nombres",
+    "universId": "maths",
+    "description": "Claire trace des chemins logiques dans la forêt enchantée avec son épée-compas. Elle veille sur chaque élève qui apprend à raisonner pas à pas.",
+    "messages": {
+      "bienvenue": [
+        "Bienvenue dans la Forêt des Nombres. Je suis Claire, je t'accompagne.",
+        "Prête à tracer ton chemin ? La forêt t'attend."
+      ],
+      "reussite": [
+        "Bien visé ! Ton raisonnement est solide comme mon épée.",
+        "Tu as tracé ton chemin avec courage. La forêt te salue.",
+        "Superbe ! Une notion de plus maîtrisée sur ta carte."
+      ],
+      "echec": [
+        "Presque ! On réessaie ensemble ?",
+        "Ce n'est pas grave, même les meilleures chevalières s'entraînent. Un indice ?",
+        "Petit détour, pas d'échec. Regardons ça autrement."
+      ]
+    }
+  },
+  {
+    "id": "alex-astronaute",
+    "prenom": "Alex",
+    "role": "Astronaute-scientifique de l'Observatoire",
+    "universId": "physique-chimie",
+    "description": "Alex explore les lois de l'univers depuis l'Observatoire. Elle transforme chaque expérience en découverte lumineuse.",
+    "messages": {
+      "bienvenue": [
+        "Bienvenue à l'Observatoire. Je suis Alex, en route pour l'exploration !",
+        "Prête à percer un mystère de l'univers ?"
+      ],
+      "reussite": [
+        "Une étoile de plus dans ton ciel. Continue, exploratrice.",
+        "Belle expérience réussie ! Ton observatoire s'illumine.",
+        "Tu as compris la loi du jour. L'univers te dit merci."
+      ],
+      "echec": [
+        "Presque ! On réessaie ensemble ?",
+        "Une expérience qui ne marche pas du premier coup, ça arrive aux meilleures scientifiques. On regarde un indice ?",
+        "Pas grave, on recommence l'expérience calmement."
+      ]
+    }
+  }
+]

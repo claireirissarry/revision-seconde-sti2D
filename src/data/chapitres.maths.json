@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fonction-affine",
+    "matiere": "maths",
+    "theme": "Fonctions",
+    "titre": "La fonction affine",
+    "ordre": 1,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Tu l'utiliseras pour modéliser des mesures en électricité et en mécanique dès la 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "Une fonction affine s'écrit f(x) = a x + b." },
+          { "id": "b2", "texte": "a est le coefficient directeur. Il donne la pente de la droite." },
+          { "id": "b3", "texte": "Si a est positif, la droite monte quand x augmente." },
+          { "id": "b4", "texte": "Si a est négatif, la droite descend quand x augmente." },
+          { "id": "b5", "texte": "b est l'ordonnée à l'origine. C'est la valeur de f quand x = 0." },
+          { "id": "b6", "texte": "La représentation graphique d'une fonction affine est toujours une droite." },
+          { "id": "b7", "texte": "Pour tracer la droite, il suffit de connaître deux points." }
+        ]
+      },
+      "video": {
+        "url": "",
+        "titre": "Fonction affine - Yvan Monka",
+        "dureeMin": 7
+      },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/maths/fonction-affine.svg",
+        "alt": "Droite représentant une fonction affine, avec le coefficient directeur a et l'ordonnée à l'origine b indiqués",
+        "legendeFalc": "La droite passe par le point (0, b). Elle monte ou descend selon le signe de a."
+      }
+    },
+    "mascotteId": "claire-chevaliere"
+  }
+]

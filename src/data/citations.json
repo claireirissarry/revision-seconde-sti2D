@@ -1,0 +1,18 @@
+[
+  { "id": "c1", "texte": "Chaque petit pas construit un grand chemin.", "contexte": "reussite" },
+  { "id": "c2", "texte": "Tu apprends à ton rythme, et c'est le bon rythme.", "contexte": "reussite" },
+  { "id": "c3", "texte": "Réussir une fois, c'est prouver que tu peux recommencer.", "contexte": "reussite" },
+  { "id": "c4", "texte": "Ta persévérance d'aujourd'hui est ta force de demain.", "contexte": "reussite" },
+  { "id": "c5", "texte": "Ce que tu viens de comprendre restera avec toi.", "contexte": "reussite" },
+  { "id": "c6", "texte": "Tu es en train de devenir plus forte, chapitre après chapitre.", "contexte": "reussite" },
+  { "id": "c7", "texte": "Une erreur n'efface jamais tout ce que tu sais déjà.", "contexte": "encouragement-echec" },
+  { "id": "c8", "texte": "Se tromper, c'est une étape normale pour apprendre.", "contexte": "encouragement-echec" },
+  { "id": "c9", "texte": "Un indice, une pause, et on repart ensemble.", "contexte": "encouragement-echec" },
+  { "id": "c10", "texte": "Ton cerveau construit encore le chemin, laisse-lui le temps.", "contexte": "encouragement-echec" },
+  { "id": "c11", "texte": "Les grandes exploratrices se sont toutes perdues avant de trouver.", "contexte": "encouragement-echec" },
+  { "id": "c12", "texte": "Ce n'est qu'un détour, pas une impasse.", "contexte": "encouragement-echec" },
+  { "id": "c13", "texte": "Une nouvelle session commence, et tu es prête.", "contexte": "bienvenue" },
+  { "id": "c14", "texte": "Aujourd'hui, avance juste d'un pas. Ça suffit.", "contexte": "bienvenue" },
+  { "id": "c15", "texte": "Le Panthéon t'attend, prête pour l'aventure du jour ?", "contexte": "bienvenue" },
+  { "id": "c16", "texte": "Petit à petit, le château des sciences se reconstruit grâce à toi.", "contexte": "bienvenue" }
+]
