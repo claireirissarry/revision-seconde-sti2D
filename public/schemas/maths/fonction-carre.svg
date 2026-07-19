@@ -1,0 +1,11 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-fc d-fc">
+  <title id="t-fc">Parabole représentant la fonction carré</title>
+  <desc id="d-fc">La courbe de f(x) = x² descend puis remonte en formant un U symétrique, avec son minimum à l'origine.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <line x1="20" y1="180" x2="300" y2="180" stroke="#2E2A24" stroke-width="2" />
+  <line x1="160" y1="20" x2="160" y2="200" stroke="#2E2A24" stroke-width="2" />
+  <path d="M 70 40 Q 160 190 250 40" fill="none" stroke="#4A7BC9" stroke-width="4" />
+  <circle cx="160" cy="180" r="5" fill="#FF7F6B" />
+  <text x="165" y="200" font-family="sans-serif" font-size="12" fill="#2E2A24">(0,0)</text>
+  <text x="260" y="40" font-family="sans-serif" font-size="12" fill="#2E4F87">f(x) = x²</text>
+</svg>

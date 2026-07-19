@@ -1,0 +1,10 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-pm d-pm">
+  <title id="t-pm">Objet avec sa masse indiquée et son vecteur poids</title>
+  <desc id="d-pm">Un objet porte l'indication de sa masse en kilogrammes, avec une flèche du poids dirigée vers le bas.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <rect x="130" y="50" width="60" height="60" fill="#FFD966" stroke="#2E2A24" stroke-width="2" />
+  <text x="140" y="85" font-family="sans-serif" font-size="12" fill="#2E2A24">m = 2 kg</text>
+  <line x1="160" y1="110" x2="160" y2="180" stroke="#FF7F6B" stroke-width="4" />
+  <polygon points="160,180 152,165 168,165" fill="#FF7F6B" />
+  <text x="170" y="160" font-family="sans-serif" font-size="12" fill="#FF7F6B">P = m·g</text>
+</svg>

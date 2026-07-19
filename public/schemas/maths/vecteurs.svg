@@ -1,0 +1,14 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-vec d-vec">
+  <title id="t-vec">Somme de deux vecteurs bout à bout</title>
+  <desc id="d-vec">Le vecteur rouge et le vecteur bleu placés bout à bout forment le vecteur somme, en violet.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <line x1="40" y1="160" x2="140" y2="90" stroke="#FF7F6B" stroke-width="4" />
+  <polygon points="140,90 128,95 132,105" fill="#FF7F6B" />
+  <line x1="140" y1="90" x2="230" y2="130" stroke="#4A7BC9" stroke-width="4" />
+  <polygon points="230,130 218,125 222,138" fill="#4A7BC9" />
+  <line x1="40" y1="160" x2="230" y2="130" stroke="#B29CE8" stroke-width="4" stroke-dasharray="6" />
+  <polygon points="230,130 218,124 220,137" fill="#B29CE8" />
+  <text x="70" y="115" font-family="sans-serif" font-size="12" fill="#FF7F6B">u</text>
+  <text x="185" y="100" font-family="sans-serif" font-size="12" fill="#2E4F87">v</text>
+  <text x="120" y="155" font-family="sans-serif" font-size="12" fill="#6A4FA3">u + v</text>
+</svg>

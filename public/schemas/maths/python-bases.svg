@@ -1,0 +1,11 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-py d-py">
+  <title id="t-py">Extrait de code Python avec variable, boucle et affichage</title>
+  <desc id="d-py">Un extrait de code montre une variable, une boucle for indentée et une instruction print.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <rect x="30" y="30" width="260" height="160" rx="8" fill="#2E2A24" />
+  <text x="45" y="60" font-family="monospace" font-size="13" fill="#7CD9B0">x = 5</text>
+  <text x="45" y="90" font-family="monospace" font-size="13" fill="#6FB8F0">for i in range(3):</text>
+  <text x="65" y="115" font-family="monospace" font-size="13" fill="#FFD966">print(x)</text>
+  <text x="45" y="150" font-family="monospace" font-size="13" fill="#FF7F6B">if x &gt; 0:</text>
+  <text x="65" y="175" font-family="monospace" font-size="13" fill="#FFD966">print("positif")</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-algo d-algo">
+  <title id="t-algo">Organigramme simple avec départ, condition et deux chemins</title>
+  <desc id="d-algo">Un organigramme montre une étape de départ, un losange de condition, puis deux chemins possibles selon la réponse.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <rect x="120" y="15" width="80" height="30" rx="10" fill="#DCE6F7" stroke="#4A7BC9" stroke-width="2" />
+  <text x="140" y="35" font-family="sans-serif" font-size="12" fill="#2E4F87">Départ</text>
+  <line x1="160" y1="45" x2="160" y2="65" stroke="#2E2A24" stroke-width="2" />
+  <polygon points="160,65 210,100 160,135 110,100" fill="#FFD966" stroke="#2E2A24" stroke-width="2" />
+  <text x="130" y="105" font-family="sans-serif" font-size="11" fill="#2E2A24">condition ?</text>
+  <line x1="110" y1="100" x2="60" y2="140" stroke="#2E2A24" stroke-width="2" />
+  <text x="65" y="130" font-family="sans-serif" font-size="11" fill="#2E2A24">oui</text>
+  <line x1="210" y1="100" x2="260" y2="140" stroke="#2E2A24" stroke-width="2" />
+  <text x="240" y="130" font-family="sans-serif" font-size="11" fill="#2E2A24">non</text>
+  <rect x="20" y="140" width="80" height="30" rx="10" fill="#DCF0E7" stroke="#4FA383" stroke-width="2" />
+  <rect x="220" y="140" width="80" height="30" rx="10" fill="#DCF0E7" stroke="#4FA383" stroke-width="2" />
+</svg>

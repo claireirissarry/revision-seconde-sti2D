@@ -1,56 +1,105 @@
 [
-  {
-    "id": "q-fa-1",
-    "chapitreId": "fonction-affine",
-    "question": "Dans f(x) = 3x + 2, quel est le coefficient directeur ?",
-    "choix": ["3", "2", "x", "f(x)"],
-    "bonneReponseIndex": 0,
-    "indice": "Le coefficient directeur est toujours devant le x.",
-    "explicationFalc": "Bien joué. Dans f(x) = a x + b, le nombre devant x est toujours a, le coefficient directeur."
-  },
-  {
-    "id": "q-fa-2",
-    "chapitreId": "fonction-affine",
-    "question": "Dans f(x) = 3x + 2, quelle est l'ordonnée à l'origine ?",
-    "choix": ["3", "2", "0", "x"],
-    "bonneReponseIndex": 1,
-    "indice": "L'ordonnée à l'origine est la valeur quand x = 0.",
-    "explicationFalc": "Exactement. b = 2 est la valeur de f(x) quand x vaut 0."
-  },
-  {
-    "id": "q-fa-3",
-    "chapitreId": "fonction-affine",
-    "question": "Si a est négatif, comment se comporte la droite ?",
-    "choix": ["Elle monte", "Elle descend", "Elle reste horizontale", "Elle disparaît"],
-    "bonneReponseIndex": 1,
-    "indice": "Pense à une pente qui descend une colline.",
-    "explicationFalc": "Oui ! Un coefficient directeur négatif fait descendre la droite quand x augmente."
-  },
-  {
-    "id": "q-oh-1",
-    "chapitreId": "loi-ohm",
-    "question": "Quelle est la formule de la loi d'Ohm ?",
-    "choix": ["U = R × I", "U = R + I", "I = U + R", "R = U × I"],
-    "bonneReponseIndex": 0,
-    "indice": "La tension dépend de la résistance et de l'intensité, multipliées ensemble.",
-    "explicationFalc": "Parfait. U = R × I est la relation fondamentale de la loi d'Ohm."
-  },
-  {
-    "id": "q-oh-2",
-    "chapitreId": "loi-ohm",
-    "question": "Dans quelle unité se mesure la résistance électrique ?",
-    "choix": ["Le volt", "L'ampère", "L'ohm", "Le watt"],
-    "bonneReponseIndex": 2,
-    "indice": "C'est le nom de la loi elle-même !",
-    "explicationFalc": "Exactement, la résistance se mesure en ohms (Ω)."
-  },
-  {
-    "id": "q-oh-3",
-    "chapitreId": "loi-ohm",
-    "question": "Comment se branche un ampèremètre pour mesurer l'intensité ?",
-    "choix": ["En parallèle", "En série", "Il ne se branche pas", "Aux bornes du générateur"],
-    "bonneReponseIndex": 1,
-    "indice": "L'intensité, c'est ce qui traverse le circuit : il faut se mettre sur son chemin.",
-    "explicationFalc": "Oui ! L'ampèremètre se branche en série, sur le chemin du courant."
-  }
+  { "id": "q-fa-1", "chapitreId": "fonction-affine", "question": "Dans f(x) = 3x + 2, quel est le coefficient directeur ?", "choix": ["3", "2", "x", "f(x)"], "bonneReponseIndex": 0, "indice": "Le coefficient directeur est toujours devant le x.", "explicationFalc": "Bien joué. Dans f(x) = a x + b, le nombre devant x est toujours a, le coefficient directeur." },
+  { "id": "q-fa-2", "chapitreId": "fonction-affine", "question": "Dans f(x) = 3x + 2, quelle est l'ordonnée à l'origine ?", "choix": ["3", "2", "0", "x"], "bonneReponseIndex": 1, "indice": "L'ordonnée à l'origine est la valeur quand x = 0.", "explicationFalc": "Exactement. b = 2 est la valeur de f(x) quand x vaut 0." },
+  { "id": "q-fa-3", "chapitreId": "fonction-affine", "question": "Si a est négatif, comment se comporte la droite ?", "choix": ["Elle monte", "Elle descend", "Elle reste horizontale", "Elle disparaît"], "bonneReponseIndex": 1, "indice": "Pense à une pente qui descend une colline.", "explicationFalc": "Oui ! Un coefficient directeur négatif fait descendre la droite quand x augmente." },
+
+  { "id": "q-cl-1", "chapitreId": "calcul-litteral", "question": "Comment développer 3(x + 2) ?", "choix": ["3x + 6", "3x + 2", "x + 6", "3x + 2x"], "bonneReponseIndex": 0, "indice": "Distribue le 3 sur chaque terme entre parenthèses.", "explicationFalc": "Exact, 3(x + 2) = 3x + 6 grâce à la distributivité." },
+  { "id": "q-cl-2", "chapitreId": "calcul-litteral", "question": "Comment factoriser 5x + 5y ?", "choix": ["5(x + y)", "5xy", "x + y", "5x + 5y"], "bonneReponseIndex": 0, "indice": "Cherche le facteur commun aux deux termes.", "explicationFalc": "Bien vu, 5 est le facteur commun : 5x + 5y = 5(x + y)." },
+  { "id": "q-cl-3", "chapitreId": "calcul-litteral", "question": "Que représente le calcul littéral ?", "choix": ["Des calculs avec des lettres", "Des calculs uniquement décimaux", "Une méthode de dessin", "Un type de mesure"], "bonneReponseIndex": 0, "indice": "Pense au mot « littéral », qui vient de lettre.", "explicationFalc": "Oui, le calcul littéral utilise des lettres pour représenter des nombres." },
+
+  { "id": "q-eq-1", "chapitreId": "equations-premier-degre", "question": "Quelle est la solution de x + 3 = 7 ?", "choix": ["4", "3", "7", "10"], "bonneReponseIndex": 0, "indice": "Soustrais 3 des deux côtés.", "explicationFalc": "Bravo, x = 7 - 3 = 4." },
+  { "id": "q-eq-2", "chapitreId": "equations-premier-degre", "question": "Quelle opération peut-on faire des deux côtés d'une équation ?", "choix": ["La même opération", "Une opération différente de chaque côté", "Rien du tout", "Seulement une addition"], "bonneReponseIndex": 0, "indice": "L'équilibre de la balance doit être conservé.", "explicationFalc": "Exactement, il faut faire la même opération des deux côtés." },
+  { "id": "q-eq-3", "chapitreId": "equations-premier-degre", "question": "Combien de solutions a une équation a x + b = c quand a n'est pas nul ?", "choix": ["Une seule", "Aucune", "Une infinité", "Deux"], "bonneReponseIndex": 0, "indice": "Pense à l'image de la balance qui s'équilibre à un seul endroit.", "explicationFalc": "Oui, il y a toujours exactement une solution." },
+
+  { "id": "q-ineq-1", "chapitreId": "inequations-premier-degre", "question": "Que devient le sens d'une inégalité si on divise par un nombre négatif ?", "choix": ["Il s'inverse", "Il reste identique", "Il disparaît", "Il devient une égalité"], "bonneReponseIndex": 0, "indice": "Essaie avec un exemple : -2 < 3, divise par -1.", "explicationFalc": "Exact, diviser par un négatif inverse le sens de l'inégalité." },
+  { "id": "q-ineq-2", "chapitreId": "inequations-premier-degre", "question": "Quel symbole représente « strictement supérieur » ?", "choix": [">", "<", "=", "≤"], "bonneReponseIndex": 0, "indice": "Pense à un signe qui pointe vers le plus petit nombre.", "explicationFalc": "Bien joué, > signifie strictement supérieur." },
+  { "id": "q-ineq-3", "chapitreId": "inequations-premier-degre", "question": "La solution d'une inéquation est souvent :", "choix": ["Un intervalle de valeurs", "Une seule valeur", "Aucune valeur", "Toujours zéro"], "bonneReponseIndex": 0, "indice": "Contrairement à une équation, il y a souvent plusieurs solutions possibles.", "explicationFalc": "Oui, la solution est en général un intervalle entier de valeurs." },
+
+  { "id": "q-fc-1", "chapitreId": "fonction-carre", "question": "Quelle est la représentation graphique de f(x) = x² ?", "choix": ["Une parabole", "Une droite", "Une hyperbole", "Un cercle"], "bonneReponseIndex": 0, "indice": "C'est une courbe en forme de U.", "explicationFalc": "Exact, c'est une parabole." },
+  { "id": "q-fc-2", "chapitreId": "fonction-carre", "question": "f(x) = x² peut-il être négatif ?", "choix": ["Non, jamais", "Oui, toujours", "Seulement si x est négatif", "Seulement si x est positif"], "bonneReponseIndex": 0, "indice": "Un carré est toujours positif ou nul.", "explicationFalc": "Bien vu, un carré n'est jamais négatif." },
+  { "id": "q-fc-3", "chapitreId": "fonction-carre", "question": "Quel est le point le plus bas de la parabole de x² ?", "choix": ["(0, 0)", "(1, 1)", "(-1, 1)", "(0, 1)"], "bonneReponseIndex": 0, "indice": "C'est l'origine du repère.", "explicationFalc": "Oui, le sommet de la parabole est l'origine (0, 0)." },
+
+  { "id": "q-fi-1", "chapitreId": "fonction-inverse", "question": "Pour quelle valeur de x la fonction inverse n'est-elle pas définie ?", "choix": ["x = 0", "x = 1", "x = -1", "x = 10"], "bonneReponseIndex": 0, "indice": "On ne peut jamais diviser par ce nombre.", "explicationFalc": "Exact, on ne peut pas diviser par 0." },
+  { "id": "q-fi-2", "chapitreId": "fonction-inverse", "question": "Quelle est la représentation graphique de la fonction inverse ?", "choix": ["Une hyperbole", "Une parabole", "Une droite", "Un segment"], "bonneReponseIndex": 0, "indice": "Elle est composée de deux branches séparées.", "explicationFalc": "Bravo, c'est une hyperbole en deux morceaux." },
+  { "id": "q-fi-3", "chapitreId": "fonction-inverse", "question": "Que se passe-t-il quand x devient très grand dans f(x) = 1/x ?", "choix": ["f(x) se rapproche de 0", "f(x) devient très grand", "f(x) devient négatif", "f(x) reste égal à 1"], "bonneReponseIndex": 0, "indice": "Pense à 1 divisé par un très grand nombre.", "explicationFalc": "Oui, plus x est grand, plus 1/x se rapproche de 0." },
+
+  { "id": "q-vf-1", "chapitreId": "variations-fonction", "question": "Que signifie une flèche vers le haut dans un tableau de variations ?", "choix": ["La fonction est croissante", "La fonction est décroissante", "La fonction est nulle", "La fonction n'existe pas"], "bonneReponseIndex": 0, "indice": "La flèche suit la direction de la courbe.", "explicationFalc": "Exact, une flèche montante signifie que la fonction croît." },
+  { "id": "q-vf-2", "chapitreId": "variations-fonction", "question": "Qu'est-ce qu'un maximum d'une fonction ?", "choix": ["Sa plus grande valeur", "Sa plus petite valeur", "Sa valeur à x = 0", "Le nombre de solutions"], "bonneReponseIndex": 0, "indice": "Pense au sommet d'une courbe qui redescend ensuite.", "explicationFalc": "Bien joué, le maximum est la plus grande valeur atteinte." },
+  { "id": "q-vf-3", "chapitreId": "variations-fonction", "question": "À quoi sert un tableau de variations ?", "choix": ["Résumer si une fonction monte ou descend", "Calculer une aire", "Compter des probabilités", "Résoudre une équation du second degré"], "bonneReponseIndex": 0, "indice": "Il résume le comportement général de la courbe.", "explicationFalc": "Oui, il résume les variations d'une fonction." },
+
+  { "id": "q-rp-1", "chapitreId": "reperage-plan", "question": "Comment appelle-t-on la première coordonnée d'un point ?", "choix": ["L'abscisse", "L'ordonnée", "Le rayon", "Le vecteur"], "bonneReponseIndex": 0, "indice": "C'est la coordonnée lue sur l'axe horizontal.", "explicationFalc": "Exact, c'est l'abscisse." },
+  { "id": "q-rp-2", "chapitreId": "reperage-plan", "question": "Quelles sont les coordonnées de l'origine du repère ?", "choix": ["(0 ; 0)", "(1 ; 1)", "(0 ; 1)", "(1 ; 0)"], "bonneReponseIndex": 0, "indice": "C'est le point de croisement des deux axes.", "explicationFalc": "Bien vu, l'origine est le point (0 ; 0)." },
+  { "id": "q-rp-3", "chapitreId": "reperage-plan", "question": "Comment calcule-t-on le milieu d'un segment ?", "choix": ["Avec la moyenne des coordonnées des extrémités", "En additionnant les coordonnées", "En multipliant les coordonnées", "Avec la différence des coordonnées"], "bonneReponseIndex": 0, "indice": "Pense à faire une moyenne, comme en statistiques.", "explicationFalc": "Oui, on utilise la moyenne des coordonnées des deux extrémités." },
+
+  { "id": "q-vec-1", "chapitreId": "vecteurs", "question": "Qu'est-ce qui caractérise un vecteur ?", "choix": ["Une direction, un sens et une longueur", "Seulement une longueur", "Seulement une couleur", "Un angle uniquement"], "bonneReponseIndex": 0, "indice": "Il faut trois informations pour définir un vecteur.", "explicationFalc": "Exact, un vecteur a une direction, un sens et une longueur." },
+  { "id": "q-vec-2", "chapitreId": "vecteurs", "question": "Comment représente-t-on une force en physique ?", "choix": ["Par un vecteur", "Par un nombre seul", "Par une couleur", "Par une lettre grecque uniquement"], "bonneReponseIndex": 0, "indice": "Une force a une direction et une intensité, comme un vecteur.", "explicationFalc": "Bien joué, une force se représente par un vecteur." },
+  { "id": "q-vec-3", "chapitreId": "vecteurs", "question": "Deux vecteurs sont égaux quand :", "choix": ["Ils ont même direction, sens et longueur", "Ils ont juste la même longueur", "Ils partent du même point", "Ils ont la même couleur"], "bonneReponseIndex": 0, "indice": "Il faut que les trois caractéristiques soient identiques.", "explicationFalc": "Oui, il faut la même direction, le même sens et la même longueur." },
+
+  { "id": "q-trig-1", "chapitreId": "trigonometrie", "question": "Que représente le cosinus dans un triangle rectangle ?", "choix": ["Côté adjacent / hypoténuse", "Côté opposé / hypoténuse", "Côté opposé / côté adjacent", "Hypoténuse / côté adjacent"], "bonneReponseIndex": 0, "indice": "Pense au côté « à côté » de l'angle.", "explicationFalc": "Exact, le cosinus est le côté adjacent sur l'hypoténuse." },
+  { "id": "q-trig-2", "chapitreId": "trigonometrie", "question": "Quel est le côté le plus long d'un triangle rectangle ?", "choix": ["L'hypoténuse", "Le côté adjacent", "Le côté opposé", "Ça dépend du triangle"], "bonneReponseIndex": 0, "indice": "C'est le côté en face de l'angle droit.", "explicationFalc": "Bien vu, l'hypoténuse est toujours le plus long côté." },
+  { "id": "q-trig-3", "chapitreId": "trigonometrie", "question": "Que représente la tangente ?", "choix": ["Côté opposé / côté adjacent", "Côté adjacent / hypoténuse", "Côté opposé / hypoténuse", "Hypoténuse / côté opposé"], "bonneReponseIndex": 0, "indice": "Elle ne dépend pas de l'hypoténuse.", "explicationFalc": "Oui, la tangente est le côté opposé sur le côté adjacent." },
+
+  { "id": "q-stat-1", "chapitreId": "statistiques", "question": "Comment calcule-t-on la moyenne d'une série ?", "choix": ["Somme des valeurs divisée par leur nombre", "La valeur du milieu", "La plus grande valeur", "La plus petite valeur"], "bonneReponseIndex": 0, "indice": "Additionne tout, puis partage équitablement.", "explicationFalc": "Exact, c'est la somme divisée par le nombre de valeurs." },
+  { "id": "q-stat-2", "chapitreId": "statistiques", "question": "Qu'est-ce que la médiane ?", "choix": ["La valeur qui partage la série en deux parts égales", "La moyenne des valeurs", "La valeur la plus fréquente", "L'écart entre le max et le min"], "bonneReponseIndex": 0, "indice": "Elle sépare la série en deux groupes de même taille.", "explicationFalc": "Bien joué, la médiane partage la série en deux parties égales." },
+  { "id": "q-stat-3", "chapitreId": "statistiques", "question": "Que mesure l'écart-type ?", "choix": ["La dispersion des valeurs autour de la moyenne", "La valeur maximale", "Le nombre de données", "La médiane"], "bonneReponseIndex": 0, "indice": "Il indique si les valeurs sont proches ou éloignées de la moyenne.", "explicationFalc": "Oui, l'écart-type mesure la dispersion autour de la moyenne." },
+
+  { "id": "q-proba-1", "chapitreId": "probabilites", "question": "Entre quelles valeurs se situe une probabilité ?", "choix": ["Entre 0 et 1", "Entre -1 et 1", "Entre 0 et 100", "Entre 1 et 10"], "bonneReponseIndex": 0, "indice": "Pense à une probabilité de 0% à 100%, en écriture décimale.", "explicationFalc": "Exact, une probabilité est toujours entre 0 et 1." },
+  { "id": "q-proba-2", "chapitreId": "probabilites", "question": "Que vaut la somme des probabilités de toutes les issues ?", "choix": ["1", "0", "Cela dépend", "10"], "bonneReponseIndex": 0, "indice": "Toutes les issues possibles couvrent 100% des cas.", "explicationFalc": "Bien vu, la somme des probabilités vaut toujours 1." },
+  { "id": "q-proba-3", "chapitreId": "probabilites", "question": "Qu'est-ce que l'équiprobabilité ?", "choix": ["Toutes les issues ont la même chance", "Une seule issue est possible", "Il n'y a pas d'issue possible", "Les issues ont des probabilités différentes"], "bonneReponseIndex": 0, "indice": "Le préfixe « équi » veut dire égal.", "explicationFalc": "Oui, l'équiprobabilité signifie que toutes les issues ont la même chance." },
+
+  { "id": "q-algo-1", "chapitreId": "algorithmique-bases", "question": "Qu'est-ce qu'une boucle dans un algorithme ?", "choix": ["Une répétition d'instructions", "Une seule instruction", "Un type de variable", "Un résultat final"], "bonneReponseIndex": 0, "indice": "Elle permet de refaire la même chose plusieurs fois.", "explicationFalc": "Exact, une boucle répète des instructions." },
+  { "id": "q-algo-2", "chapitreId": "algorithmique-bases", "question": "À quoi sert une condition dans un algorithme ?", "choix": ["Exécuter des instructions seulement si un test est vrai", "Répéter des instructions à l'infini", "Stocker une valeur", "Afficher un résultat"], "bonneReponseIndex": 0, "indice": "Elle pose une question du type vrai/faux.", "explicationFalc": "Bien joué, une condition exécute des instructions seulement si le test est vrai." },
+  { "id": "q-algo-3", "chapitreId": "algorithmique-bases", "question": "Qu'est-ce qu'une variable ?", "choix": ["Un espace qui stocke une valeur", "Une boucle", "Un type de graphique", "Une erreur de programme"], "bonneReponseIndex": 0, "indice": "Elle garde une information en mémoire pour la réutiliser.", "explicationFalc": "Oui, une variable stocke une valeur réutilisable." },
+
+  { "id": "q-py-1", "chapitreId": "python-bases", "question": "Quelle instruction affiche un message à l'écran en Python ?", "choix": ["print()", "afficher()", "montrer()", "ecran()"], "bonneReponseIndex": 0, "indice": "C'est un mot anglais qui veut dire « imprimer ».", "explicationFalc": "Exact, print() affiche un message." },
+  { "id": "q-py-2", "chapitreId": "python-bases", "question": "Comment crée-t-on une variable en Python ?", "choix": ["Avec un signe égal, ex : x = 5", "Avec un point-virgule", "Avec des guillemets uniquement", "Avec le mot « boucle »"], "bonneReponseIndex": 0, "indice": "C'est la même façon qu'en maths pour attribuer une valeur.", "explicationFalc": "Bien vu, on utilise le signe égal, comme x = 5." },
+  { "id": "q-py-3", "chapitreId": "python-bases", "question": "Comment reconnaît-on les instructions à l'intérieur d'une boucle for en Python ?", "choix": ["Elles sont indentées, décalées vers la droite", "Elles sont en majuscules", "Elles sont soulignées", "Elles sont en couleur rouge"], "bonneReponseIndex": 0, "indice": "Pense à un décalage visuel du texte.", "explicationFalc": "Oui, l'indentation indique ce qui appartient à la boucle." },
+
+  { "id": "q-oh-1", "chapitreId": "loi-ohm", "question": "Quelle est la formule de la loi d'Ohm ?", "choix": ["U = R × I", "U = R + I", "I = U + R", "R = U × I"], "bonneReponseIndex": 0, "indice": "La tension dépend de la résistance et de l'intensité, multipliées ensemble.", "explicationFalc": "Parfait. U = R × I est la relation fondamentale de la loi d'Ohm." },
+  { "id": "q-oh-2", "chapitreId": "loi-ohm", "question": "Dans quelle unité se mesure la résistance électrique ?", "choix": ["Le volt", "L'ampère", "L'ohm", "Le watt"], "bonneReponseIndex": 2, "indice": "C'est le nom de la loi elle-même !", "explicationFalc": "Exactement, la résistance se mesure en ohms (Ω)." },
+  { "id": "q-oh-3", "chapitreId": "loi-ohm", "question": "Comment se branche un ampèremètre pour mesurer l'intensité ?", "choix": ["En parallèle", "En série", "Il ne se branche pas", "Aux bornes du générateur"], "bonneReponseIndex": 1, "indice": "L'intensité, c'est ce qui traverse le circuit : il faut se mettre sur son chemin.", "explicationFalc": "Oui ! L'ampèremètre se branche en série, sur le chemin du courant." },
+
+  { "id": "q-dus-1", "chapitreId": "decrire-un-systeme", "question": "Dans quel état les molécules sont-elles les plus éloignées ?", "choix": ["Gaz", "Solide", "Liquide", "Aucun des trois"], "bonneReponseIndex": 0, "indice": "Pense à l'air que tu respires.", "explicationFalc": "Exact, dans un gaz les molécules sont très espacées." },
+  { "id": "q-dus-2", "chapitreId": "decrire-un-systeme", "question": "Qu'est-ce qui distingue un solide d'un liquide ?", "choix": ["Dans le solide, les molécules sont ordonnées et fixes", "Dans le solide, les molécules sont très éloignées", "Le solide n'a pas de molécules", "Le liquide est toujours plus chaud"], "bonneReponseIndex": 0, "indice": "Pense à la rigidité d'un objet solide.", "explicationFalc": "Bien joué, dans un solide les molécules sont ordonnées et ne glissent pas." },
+  { "id": "q-dus-3", "chapitreId": "decrire-un-systeme", "question": "Qu'est-ce qui peut provoquer un changement d'état ?", "choix": ["Un changement de température ou de pression", "Un changement de couleur", "Un changement de forme uniquement", "Rien ne peut changer un état"], "bonneReponseIndex": 0, "indice": "Pense à l'eau qui gèle ou qui bout.", "explicationFalc": "Oui, la température et la pression peuvent changer l'état de la matière." },
+
+  { "id": "q-mole-1", "chapitreId": "mole-quantite-matiere", "question": "Que représente le nombre d'Avogadro ?", "choix": ["Le nombre d'entités dans une mole", "La masse d'une mole", "Le volume d'une mole", "La température d'une réaction"], "bonneReponseIndex": 0, "indice": "C'est un nombre extrêmement grand et fixe.", "explicationFalc": "Exact, c'est le nombre d'entités contenues dans une mole." },
+  { "id": "q-mole-2", "chapitreId": "mole-quantite-matiere", "question": "Quelle est l'unité de la masse molaire ?", "choix": ["g/mol", "kg", "mol", "g"], "bonneReponseIndex": 0, "indice": "Elle combine une masse et une quantité de matière.", "explicationFalc": "Bien vu, la masse molaire s'exprime en grammes par mole." },
+  { "id": "q-mole-3", "chapitreId": "mole-quantite-matiere", "question": "Comment calcule-t-on la quantité de matière n ?", "choix": ["n = m / M", "n = m × M", "n = M / m", "n = m + M"], "bonneReponseIndex": 0, "indice": "On divise la masse par la masse molaire.", "explicationFalc": "Oui, n = m / M." },
+
+  { "id": "q-tc-1", "chapitreId": "transformation-chimique", "question": "Comment appelle-t-on les espèces consommées dans une réaction ?", "choix": ["Les réactifs", "Les produits", "Les solvants", "Les catalyseurs"], "bonneReponseIndex": 0, "indice": "Ce sont les ingrédients de départ.", "explicationFalc": "Exact, ce sont les réactifs." },
+  { "id": "q-tc-2", "chapitreId": "transformation-chimique", "question": "Que représente une équation de réaction ?", "choix": ["La transformation des réactifs en produits", "Seulement les produits", "Seulement les réactifs", "Une mesure de température"], "bonneReponseIndex": 0, "indice": "Elle décrit tout le processus, du début à la fin.", "explicationFalc": "Bien joué, elle décrit la transformation complète." },
+  { "id": "q-tc-3", "chapitreId": "transformation-chimique", "question": "Que se conserve toujours lors d'une transformation chimique ?", "choix": ["La masse totale", "La couleur", "Le volume", "La température"], "bonneReponseIndex": 0, "indice": "Rien ne se perd, tout se transforme.", "explicationFalc": "Oui, la masse totale se conserve toujours." },
+
+  { "id": "q-dos-1", "chapitreId": "dosage-simple", "question": "Comment calcule-t-on la concentration C ?", "choix": ["C = n / V", "C = n × V", "C = V / n", "C = n + V"], "bonneReponseIndex": 0, "indice": "On divise la quantité de matière par le volume.", "explicationFalc": "Exact, C = n / V." },
+  { "id": "q-dos-2", "chapitreId": "dosage-simple", "question": "Quel instrument verse précisément le réactif lors d'un dosage ?", "choix": ["Une burette", "Un thermomètre", "Une balance", "Un chronomètre"], "bonneReponseIndex": 0, "indice": "C'est un tube gradué avec un robinet.", "explicationFalc": "Bien vu, c'est la burette." },
+  { "id": "q-dos-3", "chapitreId": "dosage-simple", "question": "Dans quelle unité s'exprime la concentration ?", "choix": ["mol/L", "g", "°C", "N"], "bonneReponseIndex": 0, "indice": "Elle combine une quantité de matière et un volume.", "explicationFalc": "Oui, la concentration s'exprime en mol/L." },
+
+  { "id": "q-mvt-1", "chapitreId": "decrire-un-mouvement", "question": "Par rapport à quoi décrit-on un mouvement ?", "choix": ["Un référentiel", "Une trajectoire uniquement", "Une masse", "Une force"], "bonneReponseIndex": 0, "indice": "C'est le point de vue depuis lequel on observe.", "explicationFalc": "Exact, tout mouvement se décrit par rapport à un référentiel." },
+  { "id": "q-mvt-2", "chapitreId": "decrire-un-mouvement", "question": "Comment s'exprime la vitesse ?", "choix": ["En m/s ou km/h", "En newtons", "En joules", "En kilogrammes"], "bonneReponseIndex": 0, "indice": "Pense à la vitesse d'une voiture.", "explicationFalc": "Bien joué, la vitesse s'exprime en m/s ou km/h." },
+  { "id": "q-mvt-3", "chapitreId": "decrire-un-mouvement", "question": "Qu'est-ce qu'un mouvement uniforme ?", "choix": ["Un mouvement à vitesse constante", "Un mouvement qui s'arrête brusquement", "Un mouvement circulaire uniquement", "Un mouvement sans trajectoire"], "bonneReponseIndex": 0, "indice": "La vitesse ne change pas au cours du temps.", "explicationFalc": "Oui, dans un mouvement uniforme la vitesse reste constante." },
+
+  { "id": "q-force-1", "chapitreId": "forces-principe-inertie", "question": "Dans quelle unité mesure-t-on une force ?", "choix": ["Le newton (N)", "Le watt (W)", "Le volt (V)", "Le joule (J)"], "bonneReponseIndex": 0, "indice": "C'est en hommage à un physicien célèbre.", "explicationFalc": "Exact, une force se mesure en newtons." },
+  { "id": "q-force-2", "chapitreId": "forces-principe-inertie", "question": "Que dit le principe d'inertie ?", "choix": ["Un objet garde sa vitesse si aucune force ne s'exerce sur lui", "Un objet s'arrête toujours seul", "Les forces n'ont aucun effet", "La vitesse est toujours nulle"], "bonneReponseIndex": 0, "indice": "Pense à un objet livré à lui-même, sans force.", "explicationFalc": "Bien vu, c'est exactement le principe d'inertie." },
+  { "id": "q-force-3", "chapitreId": "forces-principe-inertie", "question": "Que se passe-t-il si les forces sur un objet se compensent ?", "choix": ["Sa vitesse ne change pas", "Il accélère fortement", "Il s'arrête immédiatement", "Il change de masse"], "bonneReponseIndex": 0, "indice": "Les forces s'annulent, comme si elles n'existaient pas.", "explicationFalc": "Oui, si les forces se compensent, la vitesse ne change pas." },
+
+  { "id": "q-pm-1", "chapitreId": "poids-masse", "question": "Quelle est l'unité de la masse ?", "choix": ["Le kilogramme (kg)", "Le newton (N)", "Le mètre (m)", "Le watt (W)"], "bonneReponseIndex": 0, "indice": "C'est l'unité que tu lis sur une balance de cuisine.", "explicationFalc": "Exact, la masse se mesure en kilogrammes." },
+  { "id": "q-pm-2", "chapitreId": "poids-masse", "question": "Comment calcule-t-on le poids P ?", "choix": ["P = m × g", "P = m + g", "P = m / g", "P = g / m"], "bonneReponseIndex": 0, "indice": "On multiplie la masse par l'intensité de la pesanteur.", "explicationFalc": "Bien joué, P = m × g." },
+  { "id": "q-pm-3", "chapitreId": "poids-masse", "question": "La masse d'un objet change-t-elle sur la Lune ?", "choix": ["Non, elle reste la même", "Oui, elle double", "Oui, elle devient nulle", "Cela dépend de la couleur de l'objet"], "bonneReponseIndex": 0, "indice": "Ce qui change sur la Lune, c'est la gravité, pas la quantité de matière.", "explicationFalc": "Exact, la masse ne change jamais, contrairement au poids." },
+
+  { "id": "q-son-1", "chapitreId": "signaux-sonores", "question": "Le son peut-il se propager dans le vide ?", "choix": ["Non", "Oui", "Seulement la nuit", "Seulement s'il est aigu"], "bonneReponseIndex": 0, "indice": "Il a besoin d'un support matériel comme l'air.", "explicationFalc": "Exact, le son ne se propage pas dans le vide." },
+  { "id": "q-son-2", "chapitreId": "signaux-sonores", "question": "Qu'est-ce qui distingue un son aigu d'un son grave ?", "choix": ["Sa fréquence", "Sa couleur", "Sa masse", "Sa vitesse de propagation"], "bonneReponseIndex": 0, "indice": "Un son aigu a une fréquence plus haute.", "explicationFalc": "Bien vu, c'est la fréquence qui distingue aigu et grave." },
+  { "id": "q-son-3", "chapitreId": "signaux-sonores", "question": "Dans quelle unité mesure-t-on la fréquence d'un son ?", "choix": ["Le hertz (Hz)", "Le décibel uniquement", "Le mètre", "Le volt"], "bonneReponseIndex": 0, "indice": "C'est aussi l'unité utilisée pour les ondes radio.", "explicationFalc": "Oui, la fréquence se mesure en hertz." },
+
+  { "id": "q-lum-1", "chapitreId": "signaux-lumineux", "question": "La lumière peut-elle se propager dans le vide ?", "choix": ["Oui", "Non", "Seulement la nuit", "Seulement si elle est blanche"], "bonneReponseIndex": 0, "indice": "C'est ce qui nous permet de voir la lumière du Soleil.", "explicationFalc": "Exact, contrairement au son, la lumière se propage dans le vide." },
+  { "id": "q-lum-2", "chapitreId": "signaux-lumineux", "question": "Que fait un prisme à la lumière blanche ?", "choix": ["Il la décompose en couleurs", "Il l'arrête complètement", "Il la rend plus rapide", "Il la transforme en son"], "bonneReponseIndex": 0, "indice": "Pense à un arc-en-ciel.", "explicationFalc": "Bien joué, le prisme décompose la lumière blanche en couleurs." },
+  { "id": "q-lum-3", "chapitreId": "signaux-lumineux", "question": "Comment s'appelle le changement de direction de la lumière entre deux milieux ?", "choix": ["La réfraction", "La réflexion totale", "La combustion", "La dilatation"], "bonneReponseIndex": 0, "indice": "C'est ce qui permet de guider la lumière dans une fibre optique.", "explicationFalc": "Oui, c'est la réfraction." },
+
+  { "id": "q-nrj-1", "chapitreId": "formes-energie", "question": "Quelle forme d'énergie est liée au mouvement ?", "choix": ["L'énergie cinétique", "L'énergie potentielle", "L'énergie chimique", "L'énergie thermique"], "bonneReponseIndex": 0, "indice": "Pense à un objet qui se déplace vite.", "explicationFalc": "Exact, l'énergie cinétique est liée au mouvement." },
+  { "id": "q-nrj-2", "chapitreId": "formes-energie", "question": "Que dit le principe de conservation de l'énergie ?", "choix": ["L'énergie totale ne se crée pas et ne disparaît pas", "L'énergie augmente toujours", "L'énergie disparaît avec le temps", "L'énergie n'existe que sous une seule forme"], "bonneReponseIndex": 0, "indice": "L'énergie peut changer de forme, mais son total reste constant.", "explicationFalc": "Bien vu, l'énergie totale se conserve toujours." },
+  { "id": "q-nrj-3", "chapitreId": "formes-energie", "question": "Dans quelle unité se mesure l'énergie ?", "choix": ["Le joule (J)", "Le watt (W)", "Le volt (V)", "Le newton (N)"], "bonneReponseIndex": 0, "indice": "C'est aussi l'unité que l'on retrouve sur les emballages alimentaires (kJ).", "explicationFalc": "Oui, l'énergie se mesure en joules." },
+
+  { "id": "q-pe-1", "chapitreId": "puissance-electrique", "question": "Comment calcule-t-on la puissance électrique P ?", "choix": ["P = U × I", "P = U + I", "P = U / I", "P = I / U"], "bonneReponseIndex": 0, "indice": "C'est la tension multipliée par l'intensité.", "explicationFalc": "Exact, P = U × I." },
+  { "id": "q-pe-2", "chapitreId": "puissance-electrique", "question": "Dans quelle unité s'exprime la puissance électrique ?", "choix": ["Le watt (W)", "Le volt (V)", "L'ampère (A)", "L'ohm (Ω)"], "bonneReponseIndex": 0, "indice": "C'est l'unité utilisée pour les ampoules ou les appareils électroménagers.", "explicationFalc": "Bien joué, la puissance s'exprime en watts." },
+  { "id": "q-pe-3", "chapitreId": "puissance-electrique", "question": "Comment calcule-t-on l'énergie consommée par un appareil ?", "choix": ["En multipliant la puissance par la durée", "En divisant la puissance par la durée", "En multipliant la tension par la résistance", "En additionnant U et I"], "bonneReponseIndex": 0, "indice": "Pense à une facture d'électricité en kWh, kilowattheure.", "explicationFalc": "Oui, l'énergie consommée = puissance × durée." }
 ]

@@ -21,16 +21,339 @@
           { "id": "b8", "texte": "On mesure I avec un ampèremètre branché en série." }
         ]
       },
-      "video": {
-        "url": "",
-        "titre": "Loi d'Ohm - Prof Paul Olivier",
-        "dureeMin": 6
-      },
+      "video": { "url": "", "titre": "Loi d'Ohm - Prof Paul Olivier", "dureeMin": 6 },
       "schema": {
         "type": "svg",
         "src": "/schemas/physique/circuit-loi-ohm.svg",
         "alt": "Circuit électrique simple avec générateur, résistance, ampèremètre en série et voltmètre en parallèle",
         "legendeFalc": "Le courant part du générateur, traverse la résistance, et revient. Le voltmètre mesure U aux bornes de la résistance."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "decrire-un-systeme",
+    "matiere": "physique-chimie",
+    "theme": "Constitution et transformations de la matière",
+    "titre": "Décrire un système : les états de la matière",
+    "ordre": 2,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Connaître les états de la matière est un prérequis pour étudier les matériaux en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La matière existe sous trois états principaux : solide, liquide et gaz." },
+          { "id": "b2", "texte": "À l'échelle microscopique, la matière est composée de molécules ou d'atomes." },
+          { "id": "b3", "texte": "Dans un solide, les molécules sont serrées et ordonnées." },
+          { "id": "b4", "texte": "Dans un liquide, les molécules sont serrées mais peuvent glisser les unes sur les autres." },
+          { "id": "b5", "texte": "Dans un gaz, les molécules sont très éloignées et se déplacent librement." },
+          { "id": "b6", "texte": "Un changement d'état se produit quand on modifie la température ou la pression." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les états de la matière - Prof Paul Olivier", "dureeMin": 6 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/decrire-un-systeme.svg",
+        "alt": "Trois cases représentant les molécules dans un solide, un liquide et un gaz",
+        "legendeFalc": "Les points sont serrés et rangés dans le solide, serrés et libres dans le liquide, très espacés dans le gaz."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "mole-quantite-matiere",
+    "matiere": "physique-chimie",
+    "theme": "Constitution et transformations de la matière",
+    "titre": "La mole et la quantité de matière",
+    "ordre": 3,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": false,
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La mole est l'unité de la quantité de matière, notée n." },
+          { "id": "b2", "texte": "Une mole contient toujours le même nombre d'entités : le nombre d'Avogadro." },
+          { "id": "b3", "texte": "Ce nombre vaut environ 6,02 × 10²³." },
+          { "id": "b4", "texte": "La quantité de matière se calcule avec n = m / M, où m est la masse et M la masse molaire." },
+          { "id": "b5", "texte": "La masse molaire s'exprime en grammes par mole (g/mol)." },
+          { "id": "b6", "texte": "Cette notion permet de compter des atomes ou des molécules à notre échelle." }
+        ]
+      },
+      "video": { "url": "", "titre": "La mole - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/mole-quantite-matiere.svg",
+        "alt": "Schéma représentant un grand groupe de particules identiques formant une mole",
+        "legendeFalc": "Une mole regroupe un nombre immense mais précis de particules identiques."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "transformation-chimique",
+    "matiere": "physique-chimie",
+    "theme": "Constitution et transformations de la matière",
+    "titre": "Les transformations chimiques",
+    "ordre": 4,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": false,
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "Une transformation chimique change la nature des espèces présentes." },
+          { "id": "b2", "texte": "Les réactifs sont les espèces consommées au début de la transformation." },
+          { "id": "b3", "texte": "Les produits sont les espèces formées à la fin de la transformation." },
+          { "id": "b4", "texte": "Une équation de réaction décrit la transformation avec des formules chimiques." },
+          { "id": "b5", "texte": "Les nombres devant les formules s'appellent les nombres stœchiométriques." },
+          { "id": "b6", "texte": "La masse totale se conserve toujours pendant une transformation chimique." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les transformations chimiques - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/transformation-chimique.svg",
+        "alt": "Schéma avec des réactifs à gauche, une flèche de réaction, et des produits à droite",
+        "legendeFalc": "Les réactifs se transforment en produits, la flèche représente la réaction."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "dosage-simple",
+    "matiere": "physique-chimie",
+    "theme": "Constitution et transformations de la matière",
+    "titre": "Dosage et concentration",
+    "ordre": 5,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": false,
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La concentration mesure la quantité de matière dissoute dans un volume de solution." },
+          { "id": "b2", "texte": "Elle se calcule avec C = n / V, où n est la quantité de matière et V le volume." },
+          { "id": "b3", "texte": "La concentration s'exprime en moles par litre (mol/L)." },
+          { "id": "b4", "texte": "Un dosage permet de déterminer la concentration inconnue d'une solution." },
+          { "id": "b5", "texte": "On utilise souvent une burette pour verser précisément un réactif." },
+          { "id": "b6", "texte": "Un changement de couleur indique souvent la fin du dosage." }
+        ]
+      },
+      "video": { "url": "", "titre": "Dosage et concentration - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/dosage-simple.svg",
+        "alt": "Burette graduée versant un liquide dans un bécher lors d'un dosage",
+        "legendeFalc": "La burette verse goutte à goutte le réactif dans le bécher, jusqu'au changement de couleur."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "decrire-un-mouvement",
+    "matiere": "physique-chimie",
+    "theme": "Mouvement et interactions",
+    "titre": "Décrire un mouvement",
+    "ordre": 6,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Décrire un mouvement est la base de la mécanique appliquée en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "Un mouvement se décrit toujours par rapport à un référentiel." },
+          { "id": "b2", "texte": "La trajectoire est la ligne suivie par un objet en mouvement." },
+          { "id": "b3", "texte": "La vitesse mesure la distance parcourue par unité de temps." },
+          { "id": "b4", "texte": "Elle s'exprime en mètres par seconde (m/s) ou en kilomètres par heure (km/h)." },
+          { "id": "b5", "texte": "Un mouvement est uniforme quand la vitesse reste constante." },
+          { "id": "b6", "texte": "Un mouvement est accéléré quand la vitesse augmente au cours du temps." }
+        ]
+      },
+      "video": { "url": "", "titre": "Décrire un mouvement - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/decrire-un-mouvement.svg",
+        "alt": "Trajectoire en pointillés avec des positions successives d'un objet et un vecteur vitesse",
+        "legendeFalc": "Les points montrent la position de l'objet à intervalles réguliers, la flèche indique la vitesse."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "forces-principe-inertie",
+    "matiere": "physique-chimie",
+    "theme": "Mouvement et interactions",
+    "titre": "Les forces et le principe d'inertie",
+    "ordre": 7,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Les forces et le principe d'inertie sont essentiels pour la mécanique en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "Une force est une action qui peut modifier le mouvement d'un objet." },
+          { "id": "b2", "texte": "Une force se représente par un vecteur, avec une direction, un sens et une intensité." },
+          { "id": "b3", "texte": "L'intensité d'une force se mesure en newtons (N)." },
+          { "id": "b4", "texte": "Le principe d'inertie dit qu'un objet garde sa vitesse si aucune force ne s'exerce sur lui." },
+          { "id": "b5", "texte": "Si les forces se compensent, l'objet reste au repos ou continue à vitesse constante." },
+          { "id": "b6", "texte": "Si les forces ne se compensent pas, la vitesse de l'objet change." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les forces et le principe d'inertie - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/forces-principe-inertie.svg",
+        "alt": "Objet soumis à deux forces représentées par des vecteurs opposés qui se compensent",
+        "legendeFalc": "Les deux flèches de même longueur mais de sens opposé s'annulent : l'objet ne change pas de mouvement."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "poids-masse",
+    "matiere": "physique-chimie",
+    "theme": "Mouvement et interactions",
+    "titre": "Poids et masse",
+    "ordre": 8,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Distinguer poids et masse est indispensable pour les calculs mécaniques en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La masse mesure la quantité de matière d'un objet, en kilogrammes (kg)." },
+          { "id": "b2", "texte": "Le poids est la force exercée par la gravité sur un objet, en newtons (N)." },
+          { "id": "b3", "texte": "Le poids se calcule avec P = m × g." },
+          { "id": "b4", "texte": "g est l'intensité de la pesanteur, environ 9,8 N/kg sur Terre." },
+          { "id": "b5", "texte": "La masse d'un objet ne change jamais, où qu'il soit." },
+          { "id": "b6", "texte": "Le poids d'un objet change si la gravité change, par exemple sur la Lune." }
+        ]
+      },
+      "video": { "url": "", "titre": "Poids et masse - Prof Paul Olivier", "dureeMin": 6 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/poids-masse.svg",
+        "alt": "Objet avec sa masse indiquée et un vecteur poids dirigé vers le bas",
+        "legendeFalc": "La flèche du poids pointe toujours vers le bas, vers le centre de la Terre."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "signaux-sonores",
+    "matiere": "physique-chimie",
+    "theme": "Ondes et signaux",
+    "titre": "Les signaux sonores",
+    "ordre": 9,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Le traitement des signaux sonores est étudié en 1ère STI2D, notamment en spécialité SIN.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "Un son est une onde produite par la vibration d'un objet." },
+          { "id": "b2", "texte": "Le son a besoin d'un milieu matériel pour se propager, il ne se propage pas dans le vide." },
+          { "id": "b3", "texte": "La fréquence d'un son se mesure en hertz (Hz)." },
+          { "id": "b4", "texte": "Un son grave a une fréquence basse, un son aigu a une fréquence haute." },
+          { "id": "b5", "texte": "L'oreille humaine perçoit les sons entre 20 Hz et 20 000 Hz environ." },
+          { "id": "b6", "texte": "La vitesse du son dans l'air est d'environ 340 mètres par seconde." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les signaux sonores - Prof Paul Olivier", "dureeMin": 6 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/signaux-sonores.svg",
+        "alt": "Onde sonore représentée par une sinusoïde, avec la fréquence indiquée",
+        "legendeFalc": "Plus les vagues de la courbe sont rapprochées, plus le son est aigu."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "signaux-lumineux",
+    "matiere": "physique-chimie",
+    "theme": "Ondes et signaux",
+    "titre": "Les signaux lumineux",
+    "ordre": 10,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Les signaux lumineux (fibre optique, capteurs) sont au programme de 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La lumière est une onde qui peut se propager dans le vide." },
+          { "id": "b2", "texte": "La vitesse de la lumière dans le vide est d'environ 300 000 kilomètres par seconde." },
+          { "id": "b3", "texte": "La lumière blanche est composée de toutes les couleurs de l'arc-en-ciel." },
+          { "id": "b4", "texte": "Un prisme peut décomposer la lumière blanche en ses différentes couleurs." },
+          { "id": "b5", "texte": "La lumière change de direction en passant d'un milieu à un autre : c'est la réfraction." },
+          { "id": "b6", "texte": "Ce principe est utilisé dans les fibres optiques pour transporter des informations." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les signaux lumineux - Prof Paul Olivier", "dureeMin": 6 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/signaux-lumineux.svg",
+        "alt": "Rayon de lumière blanche traversant un prisme et se décomposant en un arc-en-ciel de couleurs",
+        "legendeFalc": "Le prisme sépare la lumière blanche en un arc-en-ciel de couleurs."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "formes-energie",
+    "matiere": "physique-chimie",
+    "theme": "Énergie : conversions et transferts",
+    "titre": "Les formes d'énergie et leur conservation",
+    "ordre": 11,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "La conservation de l'énergie est un principe central en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "L'énergie existe sous plusieurs formes : cinétique, potentielle, thermique, électrique, chimique." },
+          { "id": "b2", "texte": "L'énergie cinétique est liée au mouvement d'un objet." },
+          { "id": "b3", "texte": "L'énergie potentielle est liée à la position d'un objet, par exemple en hauteur." },
+          { "id": "b4", "texte": "Un système peut convertir une forme d'énergie en une autre." },
+          { "id": "b5", "texte": "L'énergie totale se conserve toujours : elle ne se crée pas et ne disparaît pas." },
+          { "id": "b6", "texte": "L'énergie se mesure en joules (J)." }
+        ]
+      },
+      "video": { "url": "", "titre": "Les formes d'énergie - Prof Paul Olivier", "dureeMin": 7 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/formes-energie.svg",
+        "alt": "Schéma de conversion d'énergie potentielle en énergie cinétique lors d'une chute",
+        "legendeFalc": "En tombant, l'objet perd de l'énergie potentielle et gagne de l'énergie cinétique."
+      }
+    },
+    "mascotteId": "alex-astronaute"
+  },
+  {
+    "id": "puissance-electrique",
+    "matiere": "physique-chimie",
+    "theme": "Énergie : conversions et transferts",
+    "titre": "La puissance électrique",
+    "ordre": 12,
+    "dureeEstimeeMin": 10,
+    "essentielSTI2D": true,
+    "justificationSTI2D": "Calculer une puissance électrique est une compétence fondamentale en 1ère STI2D.",
+    "formats": {
+      "texte": {
+        "blocs": [
+          { "id": "b1", "texte": "La puissance électrique mesure l'énergie transférée par unité de temps." },
+          { "id": "b2", "texte": "Elle se calcule avec P = U × I." },
+          { "id": "b3", "texte": "U est la tension en volts, I est l'intensité en ampères." },
+          { "id": "b4", "texte": "La puissance s'exprime en watts (W)." },
+          { "id": "b5", "texte": "Plus la puissance est grande, plus l'appareil consomme ou fournit d'énergie rapidement." },
+          { "id": "b6", "texte": "L'énergie consommée se calcule en multipliant la puissance par la durée." }
+        ]
+      },
+      "video": { "url": "", "titre": "La puissance électrique - Prof Paul Olivier", "dureeMin": 6 },
+      "schema": {
+        "type": "svg",
+        "src": "/schemas/physique/puissance-electrique.svg",
+        "alt": "Circuit électrique avec la formule P = U x I indiquée à côté de la résistance",
+        "legendeFalc": "La puissance dissipée par la résistance se calcule en multipliant U par I."
       }
     },
     "mascotteId": "alex-astronaute"

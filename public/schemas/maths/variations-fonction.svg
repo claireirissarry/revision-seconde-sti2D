@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-vf d-vf">
+  <title id="t-vf">Tableau de variations et courbe correspondante</title>
+  <desc id="d-vf">Une flèche descendante puis montante dans le tableau correspond à une courbe qui descend puis remonte.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <path d="M 60 50 Q 160 170 260 50" fill="none" stroke="#4A7BC9" stroke-width="4" />
+  <rect x="40" y="180" width="240" height="30" fill="none" stroke="#2E2A24" stroke-width="1" />
+  <line x1="160" y1="180" x2="160" y2="210" stroke="#2E2A24" stroke-width="1" />
+  <line x1="60" y1="195" x2="150" y2="205" stroke="#FF7F6B" stroke-width="3" />
+  <line x1="170" y1="205" x2="260" y2="195" stroke="#7CD9B0" stroke-width="3" />
+  <text x="45" y="200" font-family="sans-serif" font-size="10" fill="#2E2A24">décroît</text>
+  <text x="200" y="200" font-family="sans-serif" font-size="10" fill="#2E2A24">croît</text>
+</svg>

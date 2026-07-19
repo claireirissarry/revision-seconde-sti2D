@@ -1,0 +1,8 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-son d-son">
+  <title id="t-son">Onde sonore représentée par une sinusoïde</title>
+  <desc id="d-son">Une courbe ondulée représente un signal sonore, la distance entre les vagues indique la fréquence.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <line x1="20" y1="110" x2="300" y2="110" stroke="#2E2A24" stroke-width="1" />
+  <path d="M 20 110 Q 45 60, 70 110 T 120 110 T 170 110 T 220 110 T 270 110" fill="none" stroke="#4FA383" stroke-width="3" />
+  <text x="100" y="180" font-family="sans-serif" font-size="12" fill="#2F7259">fréquence = nombre de vagues par seconde</text>
+</svg>

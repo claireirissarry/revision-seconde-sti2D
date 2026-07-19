@@ -1,0 +1,15 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-dos d-dos">
+  <title id="t-dos">Burette versant un réactif dans un bécher lors d'un dosage</title>
+  <desc id="d-dos">Une burette graduée verse goutte à goutte un liquide dans un bécher contenant la solution à doser.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <rect x="140" y="15" width="30" height="110" fill="#DCF0E7" stroke="#4FA383" stroke-width="2" />
+  <line x1="140" y1="35" x2="170" y2="35" stroke="#4FA383" stroke-width="1" />
+  <line x1="140" y1="55" x2="170" y2="55" stroke="#4FA383" stroke-width="1" />
+  <line x1="140" y1="75" x2="170" y2="75" stroke="#4FA383" stroke-width="1" />
+  <line x1="140" y1="95" x2="170" y2="95" stroke="#4FA383" stroke-width="1" />
+  <polygon points="140,125 170,125 155,145" fill="#DCF0E7" stroke="#4FA383" stroke-width="2" />
+  <line x1="155" y1="145" x2="155" y2="165" stroke="#4FA383" stroke-width="2" />
+  <circle cx="155" cy="168" r="3" fill="#6FB8F0" />
+  <path d="M 100 190 L 100 150 L 210 150 L 210 190 Z" fill="#DCE6F7" stroke="#4A7BC9" stroke-width="2" />
+  <text x="115" y="180" font-family="sans-serif" font-size="12" fill="#2E4F87">solution</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-force d-force">
+  <title id="t-force">Deux forces opposées qui se compensent sur un objet</title>
+  <desc id="d-force">Un objet central reçoit deux vecteurs de même longueur mais de sens opposés qui s'annulent.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <rect x="140" y="90" width="40" height="40" fill="#FFD966" stroke="#2E2A24" stroke-width="2" />
+  <line x1="140" y1="110" x2="60" y2="110" stroke="#4A7BC9" stroke-width="4" />
+  <polygon points="60,110 72,104 72,116" fill="#4A7BC9" />
+  <line x1="180" y1="110" x2="260" y2="110" stroke="#FF7F6B" stroke-width="4" />
+  <polygon points="260,110 248,104 248,116" fill="#FF7F6B" />
+  <text x="70" y="95" font-family="sans-serif" font-size="12" fill="#2E4F87">F1</text>
+  <text x="230" y="95" font-family="sans-serif" font-size="12" fill="#FF7F6B">F2</text>
+</svg>

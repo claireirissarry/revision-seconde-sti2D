@@ -1,0 +1,10 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-proba d-proba">
+  <title id="t-proba">Roue divisée en secteurs représentant des probabilités</title>
+  <desc id="d-proba">Une roue circulaire divisée en quatre secteurs colorés de tailles différentes, chacun représentant une issue possible.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <circle cx="160" cy="110" r="70" fill="#FAF6EF" stroke="#2E2A24" stroke-width="2" />
+  <path d="M 160 110 L 160 40 A 70 70 0 0 1 222 145 Z" fill="#6FB8F0" />
+  <path d="M 160 110 L 222 145 A 70 70 0 0 1 105 172 Z" fill="#FFD966" />
+  <path d="M 160 110 L 105 172 A 70 70 0 0 1 100 60 Z" fill="#7CD9B0" />
+  <path d="M 160 110 L 100 60 A 70 70 0 0 1 160 40 Z" fill="#FF7F6B" />
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-lum d-lum">
+  <title id="t-lum">Décomposition de la lumière blanche par un prisme</title>
+  <desc id="d-lum">Un rayon de lumière blanche entre dans un prisme et ressort décomposé en un arc-en-ciel de couleurs.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <line x1="20" y1="100" x2="130" y2="100" stroke="#2E2A24" stroke-width="3" />
+  <polygon points="130,60 180,100 130,140" fill="#DCE6F7" stroke="#4A7BC9" stroke-width="2" />
+  <line x1="180" y1="100" x2="290" y2="70" stroke="#FF7F6B" stroke-width="2" />
+  <line x1="180" y1="100" x2="290" y2="90" stroke="#FFB25B" stroke-width="2" />
+  <line x1="180" y1="100" x2="290" y2="110" stroke="#FFD966" stroke-width="2" />
+  <line x1="180" y1="100" x2="290" y2="130" stroke="#7CD9B0" stroke-width="2" />
+  <line x1="180" y1="100" x2="290" y2="150" stroke="#B29CE8" stroke-width="2" />
+</svg>

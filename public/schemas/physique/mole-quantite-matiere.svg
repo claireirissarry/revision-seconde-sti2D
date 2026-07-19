@@ -1,0 +1,13 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-mole d-mole">
+  <title id="t-mole">Une mole regroupe un très grand nombre de particules identiques</title>
+  <desc id="d-mole">Un grand cercle englobe de nombreuses petites particules identiques, symbolisant une mole.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <circle cx="160" cy="110" r="90" fill="#DCF0E7" stroke="#4FA383" stroke-width="2" stroke-dasharray="6" />
+  <g fill="#2F7259">
+    <circle cx="120" cy="70" r="6" /><circle cx="150" cy="60" r="6" /><circle cx="180" cy="75" r="6" />
+    <circle cx="200" cy="100" r="6" /><circle cx="130" cy="100" r="6" /><circle cx="160" cy="110" r="6" />
+    <circle cx="190" cy="130" r="6" /><circle cx="120" cy="140" r="6" /><circle cx="150" cy="150" r="6" />
+    <circle cx="180" cy="155" r="6" /><circle cx="205" cy="150" r="6" /><circle cx="100" cy="115" r="6" />
+  </g>
+  <text x="110" y="30" font-family="sans-serif" font-size="14" fill="#2F7259">1 mole ≈ 6,02 × 10²³ particules</text>
+</svg>

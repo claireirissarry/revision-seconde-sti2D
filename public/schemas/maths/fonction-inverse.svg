@@ -1,0 +1,10 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-fi d-fi">
+  <title id="t-fi">Hyperbole représentant la fonction inverse</title>
+  <desc id="d-fi">Deux branches de courbe s'approchent des axes sans les toucher, représentant f(x) = 1/x.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <line x1="20" y1="110" x2="300" y2="110" stroke="#2E2A24" stroke-width="2" />
+  <line x1="160" y1="20" x2="160" y2="200" stroke="#2E2A24" stroke-width="2" />
+  <path d="M 175 100 C 190 60, 230 40, 270 35" fill="none" stroke="#4A7BC9" stroke-width="4" />
+  <path d="M 145 120 C 130 160, 90 180, 50 185" fill="none" stroke="#4A7BC9" stroke-width="4" />
+  <text x="250" y="30" font-family="sans-serif" font-size="12" fill="#2E4F87">f(x) = 1/x</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t-trig d-trig">
+  <title id="t-trig">Triangle rectangle avec côtés et angle annotés</title>
+  <desc id="d-trig">Un triangle rectangle avec l'angle, le côté adjacent, le côté opposé et l'hypoténuse indiqués.</desc>
+  <rect width="320" height="220" fill="#FAF6EF" />
+  <polygon points="60,180 260,180 260,60" fill="#DCE6F7" stroke="#4A7BC9" stroke-width="2" />
+  <rect x="240" y="160" width="20" height="20" fill="none" stroke="#2E2A24" stroke-width="1.5" />
+  <path d="M 100 180 A 40 40 0 0 1 90 152" fill="none" stroke="#FF7F6B" stroke-width="2" />
+  <text x="105" y="170" font-family="sans-serif" font-size="14" fill="#FF7F6B">α</text>
+  <text x="150" y="200" font-family="sans-serif" font-size="12" fill="#2E2A24">côté adjacent</text>
+  <text x="265" y="120" font-family="sans-serif" font-size="12" fill="#2E2A24" transform="rotate(90 265 120)">côté opposé</text>
+  <text x="130" y="110" font-family="sans-serif" font-size="12" fill="#2E4F87">hypoténuse</text>
+</svg>
