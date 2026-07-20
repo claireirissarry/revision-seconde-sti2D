@@ -21,7 +21,7 @@
           { "id": "b8", "texte": "On mesure I avec un ampèremètre branché en série." }
         ]
       },
-      "video": { "url": "", "titre": "Loi d'Ohm - Prof Paul Olivier", "dureeMin": 6 },
+      "video": { "url": "https://www.youtube.com/watch?v=R6WpdF0BO60", "titre": "La loi d'Ohm : résistance, tension, intensité - Prof Paul Olivier", "dureeMin": 6 },
       "schema": {
         "type": "svg",
         "src": "/schemas/physique/circuit-loi-ohm.svg",
@@ -80,7 +80,7 @@
           { "id": "b6", "texte": "Cette notion permet de compter des atomes ou des molécules à notre échelle." }
         ]
       },
-      "video": { "url": "", "titre": "La mole - Prof Paul Olivier", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=RkQ-Q5jL110", "titre": "Nombre d'Avogadro et quantité de matière - Prof Paul Olivier", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/physique/mole-quantite-matiere.svg",
@@ -138,7 +138,7 @@
           { "id": "b6", "texte": "Un changement de couleur indique souvent la fin du dosage." }
         ]
       },
-      "video": { "url": "", "titre": "Dosage et concentration - Prof Paul Olivier", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=BmJ7bFVyOKo", "titre": "Concentration en masse ou concentration molaire ? - Prof Paul Olivier", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/physique/dosage-simple.svg",
@@ -288,7 +288,7 @@
           { "id": "b6", "texte": "Ce principe est utilisé dans les fibres optiques pour transporter des informations." }
         ]
       },
-      "video": { "url": "", "titre": "Les signaux lumineux - Prof Paul Olivier", "dureeMin": 6 },
+      "video": { "url": "https://www.youtube.com/watch?v=vdwwgj8s1yg", "titre": "Spectres d'émission - Prof Paul Olivier", "dureeMin": 6 },
       "schema": {
         "type": "svg",
         "src": "/schemas/physique/signaux-lumineux.svg",
