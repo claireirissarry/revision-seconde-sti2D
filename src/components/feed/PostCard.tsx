@@ -4,7 +4,13 @@ import type { Chapitre, Mascotte } from "../../types/content";
 import { MascotteAvatar } from "../mascotte/MascotteAvatar";
 import { cx } from "../../lib/utils";
 
-export function PostCard({ chapitre, mascotte }: { chapitre: Chapitre; mascotte: Mascotte }) {
+interface Props {
+  chapitre: Chapitre;
+  mascotte: Mascotte;
+  pourcentage?: number | null;
+}
+
+export function PostCard({ chapitre, mascotte, pourcentage }: Props) {
   const [aime, setAime] = useState(false);
   const premierBloc = chapitre.formats.texte.blocs[0]?.texte ?? "";
 
@@ -25,6 +31,11 @@ export function PostCard({ chapitre, mascotte }: { chapitre: Chapitre; mascotte:
 
       <Link to={`/chapitre/${chapitre.id}`} className="block space-y-1">
         <h3 className="font-titre text-lg font-bold">{chapitre.titre}</h3>
+        {pourcentage != null && (
+          <span className="inline-flex items-center gap-1 rounded-full bg-physique-light px-2 py-0.5 text-xs font-semibold text-physique-dark">
+            ✅ {pourcentage}% de réussite
+          </span>
+        )}
         <p className="text-sm text-ink/80">{premierBloc}</p>
       </Link>
 
