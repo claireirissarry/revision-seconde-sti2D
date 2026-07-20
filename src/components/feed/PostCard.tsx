@@ -38,9 +38,6 @@ export function PostCard({ chapitre, mascotte }: { chapitre: Chapitre; mascotte:
         >
           <span aria-hidden="true">{aime ? "❤️" : "🤍"}</span> J'aime
         </button>
-        <p className="text-xs italic text-ink/60">
-          {mascotte.prenom} : « {mascotte.messages.bienvenue[0]} »
-        </p>
       </footer>
     </article>
   );
