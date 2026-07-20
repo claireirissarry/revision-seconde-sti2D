@@ -16,6 +16,21 @@ export interface MotPositionne {
   fin: number;
 }
 
+export function melangerChoix(
+  choix: string[],
+  bonneReponseIndex: number
+): { choix: string[]; bonneReponseIndex: number } {
+  const indices = choix.map((_, i) => i);
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  return {
+    choix: indices.map((i) => choix[i]),
+    bonneReponseIndex: indices.indexOf(bonneReponseIndex),
+  };
+}
+
 export function decouperEnMots(texte: string): MotPositionne[] {
   const mots: MotPositionne[] = [];
   const regex = /\S+/g;
