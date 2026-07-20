@@ -20,7 +20,7 @@
           { "id": "b7", "texte": "Pour tracer la droite, il suffit de connaître deux points." }
         ]
       },
-      "video": { "url": "", "titre": "Fonction affine - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=n5_pRx4ozIg", "titre": "Fonction affine - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/fonction-affine.svg",
@@ -50,7 +50,7 @@
           { "id": "b6", "texte": "Ces techniques servent à simplifier des expressions compliquées." }
         ]
       },
-      "video": { "url": "", "titre": "Développer et factoriser - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=kQGWtMOHbrA", "titre": "Développer et factoriser - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/calcul-litteral.svg",
@@ -80,7 +80,7 @@
           { "id": "b6", "texte": "Il existe toujours une seule solution quand a n'est pas nul." }
         ]
       },
-      "video": { "url": "", "titre": "Résoudre une équation du premier degré - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=sWaHnxqUve0", "titre": "Résoudre une équation du premier degré - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/equations-premier-degre.svg",
@@ -109,7 +109,7 @@
           { "id": "b6", "texte": "On peut représenter la solution sur une droite graduée." }
         ]
       },
-      "video": { "url": "", "titre": "Inéquations du premier degré - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=ycYfb8aHssY", "titre": "Inéquations du premier degré - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/inequations-premier-degre.svg",
@@ -139,7 +139,7 @@
           { "id": "b6", "texte": "Le point le plus bas de la parabole est l'origine (0, 0)." }
         ]
       },
-      "video": { "url": "", "titre": "La fonction carré - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=B3mM6LYdsF8", "titre": "La fonction carré - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/fonction-carre.svg",
@@ -169,7 +169,7 @@
           { "id": "b6", "texte": "Quand x se rapproche de 0, f(x) devient très grand." }
         ]
       },
-      "video": { "url": "", "titre": "La fonction inverse - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=Vl2rlbFF22Y", "titre": "La fonction inverse - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/fonction-inverse.svg",
@@ -199,7 +199,7 @@
           { "id": "b6", "texte": "Un minimum est la plus petite valeur atteinte par la fonction." }
         ]
       },
-      "video": { "url": "", "titre": "Tableau de variations - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=i8aYSIidNlk", "titre": "Tableau de variations - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/variations-fonction.svg",
@@ -229,7 +229,7 @@
           { "id": "b6", "texte": "Le milieu d'un segment se calcule avec la moyenne des coordonnées des extrémités." }
         ]
       },
-      "video": { "url": "", "titre": "Repérage dans le plan - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=9OB3hct6gak", "titre": "Repérage dans le plan - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/reperage-plan.svg",
@@ -259,7 +259,7 @@
           { "id": "b6", "texte": "En physique, une force se représente par un vecteur." }
         ]
       },
-      "video": { "url": "", "titre": "Les vecteurs - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=aSSDBNn_rRI", "titre": "Les vecteurs - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/vecteurs.svg",
@@ -289,7 +289,7 @@
           { "id": "b6", "texte": "La calculatrice donne directement ces valeurs avec les touches cos, sin, tan." }
         ]
       },
-      "video": { "url": "", "titre": "Trigonométrie dans le triangle rectangle - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=DfgUYXB5_jg", "titre": "Trigonométrie dans le triangle rectangle - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/trigonometrie.svg",
@@ -319,7 +319,7 @@
           { "id": "b6", "texte": "Ces indicateurs aident à résumer et comparer des séries de données." }
         ]
       },
-      "video": { "url": "", "titre": "Moyenne, médiane, écart-type - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=dZ1arqz41Bg", "titre": "Moyenne, médiane, écart-type - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/statistiques.svg",
@@ -348,7 +348,7 @@
           { "id": "b6", "texte": "Une probabilité de 0 signifie un évènement impossible, une probabilité de 1 un évènement certain." }
         ]
       },
-      "video": { "url": "", "titre": "Probabilités simples - Yvan Monka", "dureeMin": 7 },
+      "video": { "url": "https://www.youtube.com/watch?v=dvx_O37gfyY", "titre": "Probabilités simples - Yvan Monka", "dureeMin": 7 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/probabilites.svg",
@@ -378,7 +378,7 @@
           { "id": "b6", "texte": "Écrire un algorithme, c'est décomposer un problème en petites étapes simples." }
         ]
       },
-      "video": { "url": "", "titre": "Introduction à l'algorithmique - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=VmOPhT4HFNE", "titre": "Introduction à l'algorithmique - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/algorithmique-bases.svg",
@@ -408,7 +408,7 @@
           { "id": "b6", "texte": "On écrit les instructions répétées ou conditionnelles avec une indentation, un décalage vers la droite." }
         ]
       },
-      "video": { "url": "", "titre": "Premiers pas en Python - Yvan Monka", "dureeMin": 8 },
+      "video": { "url": "https://www.youtube.com/watch?v=VmOPhT4HFNE", "titre": "Premiers pas en Python - Yvan Monka", "dureeMin": 8 },
       "schema": {
         "type": "svg",
         "src": "/schemas/maths/python-bases.svg",
