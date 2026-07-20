@@ -35,6 +35,13 @@ create table if not exists quiz_questions (
   explication_falc text not null
 );
 
+create table if not exists exercices (
+  id text primary key,
+  chapitre_id text not null unique references chapitres (id) on delete cascade,
+  enonce text not null,
+  questions jsonb not null -- [{ id, question, choix, bonneReponseIndex, indice, explicationFalc }]
+);
+
 -- =========================================================
 -- Données élève (RLS : chacun ne voit que les siennes)
 -- =========================================================
@@ -79,6 +86,7 @@ create table if not exists liens_parent_eleve (
 
 alter table chapitres enable row level security;
 alter table quiz_questions enable row level security;
+alter table exercices enable row level security;
 alter table progression_eleve enable row level security;
 alter table streaks enable row level security;
 alter table badges_debloques enable row level security;
@@ -89,6 +97,9 @@ create policy "chapitres lecture publique" on chapitres
   for select using (true);
 
 create policy "quiz lecture publique" on quiz_questions
+  for select using (true);
+
+create policy "exercices lecture publique" on exercices
   for select using (true);
 
 -- Progression : l'élève lit/écrit uniquement sa propre progression

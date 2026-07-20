@@ -47,6 +47,22 @@ export interface QuizQuestion {
   explicationFalc: string;
 }
 
+export interface ExerciceQuestion {
+  id: string;
+  question: string;
+  choix: string[];
+  bonneReponseIndex: number;
+  indice: string;
+  explicationFalc: string;
+}
+
+export interface Exercice {
+  id: string;
+  chapitreId: string;
+  enonce: string;
+  questions: ExerciceQuestion[];
+}
+
 export type ContexteCitation = "reussite" | "encouragement-echec" | "bienvenue";
 
 export interface Citation {

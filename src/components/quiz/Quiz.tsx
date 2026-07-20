@@ -26,8 +26,8 @@ export function Quiz({ chapitreId, mascotte, onTermine }: Props) {
 
   const question = questions[indexQuestion];
 
-  function passerALaSuite() {
-    const nouveauScore = score + 1;
+  function passerALaSuite(premierEssaiReussi: boolean) {
+    const nouveauScore = score + (premierEssaiReussi ? 1 : 0);
     setScore(nouveauScore);
     if (indexQuestion + 1 >= questions.length) {
       setTermine(true);

@@ -48,6 +48,9 @@ async function seed() {
     readFileSync(resolve(process.cwd(), "src/data/chapitres.physique.json"), "utf-8")
   );
   const quiz = JSON.parse(readFileSync(resolve(process.cwd(), "src/data/quiz.json"), "utf-8"));
+  const exercices = JSON.parse(
+    readFileSync(resolve(process.cwd(), "src/data/exercices.json"), "utf-8")
+  );
 
   const chapitres = [...chapitresMaths, ...chapitresPhysique].map((c: any) => ({
     id: c.id,
@@ -90,6 +93,19 @@ async function seed() {
     onConflict: "id",
   });
   if (erreurQuiz) throw erreurQuiz;
+
+  const exercicesRows = (exercices as any[]).map((e) => ({
+    id: e.id,
+    chapitre_id: e.chapitreId,
+    enonce: e.enonce,
+    questions: e.questions,
+  }));
+
+  console.log(`Seed de ${exercicesRows.length} exercice(s)...`);
+  const { error: erreurExercices } = await supabase.from("exercices").upsert(exercicesRows, {
+    onConflict: "id",
+  });
+  if (erreurExercices) throw erreurExercices;
 
   console.log("Seed terminé ✨");
 }

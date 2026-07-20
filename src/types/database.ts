@@ -81,6 +81,24 @@ export interface Database {
         Update: Partial<Database["public"]["Tables"]["badges_debloques"]["Row"]>;
         Relationships: [];
       };
+      exercices: {
+        Row: {
+          id: string;
+          chapitre_id: string;
+          enonce: string;
+          questions: {
+            id: string;
+            question: string;
+            choix: string[];
+            bonneReponseIndex: number;
+            indice: string;
+            explicationFalc: string;
+          }[];
+        };
+        Insert: Database["public"]["Tables"]["exercices"]["Row"];
+        Update: Partial<Database["public"]["Tables"]["exercices"]["Row"]>;
+        Relationships: [];
+      };
       liens_parent_eleve: {
         Row: {
           id: string;

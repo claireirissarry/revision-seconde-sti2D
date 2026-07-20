@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { supabase, supabaseConfigure } from "../lib/supabaseClient";
-import type { Chapitre, Matiere, QuizQuestion } from "../types/content";
+import type { Chapitre, Exercice, Matiere, QuizQuestion } from "../types/content";
 import chapitresMaths from "../data/chapitres.maths.json";
 import chapitresPhysique from "../data/chapitres.physique.json";
 import quizLocal from "../data/quiz.json";
+import exercicesLocal from "../data/exercices.json";
 
 const chapitresLocaux: Chapitre[] = [
   ...(chapitresMaths as Chapitre[]),
@@ -137,6 +138,46 @@ export function useQuiz(chapitreId: string) {
   }, [chapitreId]);
 
   return questions;
+}
+
+export function useExercice(chapitreId: string) {
+  const trouverLocal = () =>
+    (exercicesLocal as Exercice[]).find((e) => e.chapitreId === chapitreId) ?? null;
+
+  const [exercice, setExercice] = useState<Exercice | null>(trouverLocal);
+
+  useEffect(() => {
+    if (!supabaseConfigure) return;
+    let annule = false;
+
+    async function charger() {
+      const { data, error } = await supabase
+        .from("exercices")
+        .select("*")
+        .eq("chapitre_id", chapitreId)
+        .maybeSingle();
+
+      if (annule) return;
+
+      if (error || !data) {
+        setExercice(trouverLocal());
+      } else {
+        setExercice({
+          id: data.id,
+          chapitreId: data.chapitre_id,
+          enonce: data.enonce,
+          questions: data.questions,
+        });
+      }
+    }
+
+    void charger();
+    return () => {
+      annule = true;
+    };
+  }, [chapitreId]);
+
+  return exercice;
 }
 
 function filtrer(chapitres: Chapitre[], matiere?: Matiere): Chapitre[] {

@@ -1,20 +1,23 @@
 import { useState } from "react";
-import type { QuizQuestion } from "../../types/content";
-import { cx } from "../../lib/utils";
+import type { ExerciceQuestion } from "../../types/content";
+import { cx, melangerChoix } from "../../lib/utils";
 
 interface Props {
-  question: QuizQuestion;
-  onReussite: () => void;
+  question: ExerciceQuestion;
+  onReussite: (premierEssaiReussi: boolean) => void;
 }
 
 export function QuizQuestionCard({ question, onReussite }: Props) {
+  const [{ choix, bonneReponseIndex }] = useState(() =>
+    melangerChoix(question.choix, question.bonneReponseIndex)
+  );
   const [choixSelectionne, setChoixSelectionne] = useState<number | null>(null);
   const [nbEssais, setNbEssais] = useState(0);
   const [reussi, setReussi] = useState(false);
 
   function repondre(index: number) {
     setChoixSelectionne(index);
-    if (index === question.bonneReponseIndex) {
+    if (index === bonneReponseIndex) {
       setReussi(true);
     } else {
       setNbEssais((n) => n + 1);
@@ -28,12 +31,12 @@ export function QuizQuestionCard({ question, onReussite }: Props) {
       <p className="font-medium">{question.question}</p>
 
       <div className="grid gap-2" role="group" aria-label="Choix de réponse">
-        {question.choix.map((choix, index) => {
+        {choix.map((choixItem, index) => {
           const estSelectionne = choixSelectionne === index;
-          const estBonneReponse = index === question.bonneReponseIndex;
+          const estBonneReponse = index === bonneReponseIndex;
           return (
             <button
-              key={choix}
+              key={choixItem}
               type="button"
               onClick={() => repondre(index)}
               disabled={reussi}
@@ -45,7 +48,7 @@ export function QuizQuestionCard({ question, onReussite }: Props) {
                 !(reussi && estBonneReponse) && !(estSelectionne && !reussi) && "border-ivoire-soft bg-white"
               )}
             >
-              {choix}
+              {choixItem}
             </button>
           );
         })}
@@ -64,7 +67,7 @@ export function QuizQuestionCard({ question, onReussite }: Props) {
           <p className="text-sm">{question.explicationFalc}</p>
           <button
             type="button"
-            onClick={onReussite}
+            onClick={() => onReussite(nbEssais === 0)}
             className="min-h-11 w-full rounded-xl bg-maths px-4 py-3 font-semibold text-white"
           >
             Continuer

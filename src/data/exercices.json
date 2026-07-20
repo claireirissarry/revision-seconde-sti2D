@@ -1,0 +1,236 @@
+[
+  {
+    "id": "ex-fonction-affine",
+    "chapitreId": "fonction-affine",
+    "enonce": "Un artisan facture ses interventions selon la formule f(x) = 30x + 50, où x est le nombre d'heures travaillées et f(x) le prix en euros.",
+    "questions": [
+      { "id": "ex-fa-q1", "question": "Quel est le prix d'une intervention de 4 heures ?", "choix": ["170 €", "120 €", "140 €", "180 €"], "bonneReponseIndex": 0, "indice": "Remplace x par 4 dans la formule.", "explicationFalc": "f(4) = 30 × 4 + 50 = 170 €." },
+      { "id": "ex-fa-q2", "question": "L'artisan facture un client 260 €. Combien d'heures a-t-il travaillé ?", "choix": ["7 h", "8 h", "6 h", "9 h"], "bonneReponseIndex": 0, "indice": "Résous l'équation 30x + 50 = 260.", "explicationFalc": "30x = 260 - 50 = 210, donc x = 7 heures." }
+    ]
+  },
+  {
+    "id": "ex-calcul-litteral",
+    "chapitreId": "calcul-litteral",
+    "enonce": "Un jardin rectangulaire a une longueur de (x + 5) mètres et une largeur de x mètres.",
+    "questions": [
+      { "id": "ex-cl-q1", "question": "Quelle est l'expression développée de l'aire du jardin ?", "choix": ["x² + 5x", "x² + 5", "2x + 5", "x² + 10x"], "bonneReponseIndex": 0, "indice": "Développe x × (x + 5).", "explicationFalc": "x(x + 5) = x² + 5x." },
+      { "id": "ex-cl-q2", "question": "Pour x = 6, quelle est l'aire du jardin en m² ?", "choix": ["66 m²", "60 m²", "36 m²", "30 m²"], "bonneReponseIndex": 0, "indice": "Remplace x par 6 dans x² + 5x.", "explicationFalc": "6² + 5×6 = 36 + 30 = 66 m²." }
+    ]
+  },
+  {
+    "id": "ex-equations-premier-degre",
+    "chapitreId": "equations-premier-degre",
+    "enonce": "Deux frères ont respectivement x ans et (x + 4) ans. La somme de leurs âges est 26 ans.",
+    "questions": [
+      { "id": "ex-eq-q1", "question": "Quelle équation traduit cette situation ?", "choix": ["2x + 4 = 26", "2x = 26", "x + 4 = 26", "2x - 4 = 26"], "bonneReponseIndex": 0, "indice": "Additionne les deux âges.", "explicationFalc": "x + (x + 4) = 2x + 4 = 26." },
+      { "id": "ex-eq-q2", "question": "Quel est l'âge du frère le plus jeune ?", "choix": ["11 ans", "13 ans", "15 ans", "9 ans"], "bonneReponseIndex": 0, "indice": "Résous 2x + 4 = 26.", "explicationFalc": "2x = 22, donc x = 11 ans." }
+    ]
+  },
+  {
+    "id": "ex-inequations-premier-degre",
+    "chapitreId": "inequations-premier-degre",
+    "enonce": "Un abonnement de salle de sport coûte 20 € par mois plus 5 € de frais d'inscription.",
+    "questions": [
+      { "id": "ex-ineq-q1", "question": "Quelle inéquation permet de savoir à partir de combien de mois x le coût total dépasse 100 € ?", "choix": ["20x + 5 > 100", "5x + 20 > 100", "20x - 5 > 100", "25x > 100"], "bonneReponseIndex": 0, "indice": "Le coût total est le nombre de mois fois 20, plus les 5 € de frais.", "explicationFalc": "Le coût total est 20x + 5, on cherche quand il dépasse 100 €." },
+      { "id": "ex-ineq-q2", "question": "À partir de combien de mois entiers ce coût dépasse-t-il 100 € ?", "choix": ["5 mois", "4 mois", "6 mois", "3 mois"], "bonneReponseIndex": 0, "indice": "Résous 20x + 5 > 100, puis arrondis au nombre entier de mois suivant.", "explicationFalc": "20x > 95, donc x > 4,75 : il faut donc 5 mois." }
+    ]
+  },
+  {
+    "id": "ex-fonction-carre",
+    "chapitreId": "fonction-carre",
+    "enonce": "Un carreleur doit poser des dalles carrées de côté c mètres pour couvrir une terrasse.",
+    "questions": [
+      { "id": "ex-fc-q1", "question": "Si le côté d'une dalle est 1,5 m, quelle est son aire ?", "choix": ["2,25 m²", "3 m²", "4,5 m²", "2,5 m²"], "bonneReponseIndex": 0, "indice": "Calcule 1,5 × 1,5.", "explicationFalc": "1,5² = 2,25 m²." },
+      { "id": "ex-fc-q2", "question": "Le carreleur veut des dalles d'aire 6,25 m². Quelle doit être la longueur du côté ?", "choix": ["2,5 m", "3 m", "3,125 m", "12,5 m"], "bonneReponseIndex": 0, "indice": "Cherche le nombre qui, multiplié par lui-même, donne 6,25.", "explicationFalc": "2,5 × 2,5 = 6,25, donc le côté mesure 2,5 m." }
+    ]
+  },
+  {
+    "id": "ex-fonction-inverse",
+    "chapitreId": "fonction-inverse",
+    "enonce": "Un groupe d'amis doit se partager équitablement un gain de 120 €.",
+    "questions": [
+      { "id": "ex-fi-q1", "question": "Si le groupe compte 4 personnes, combien chacune reçoit-elle ?", "choix": ["30 €", "40 €", "24 €", "20 €"], "bonneReponseIndex": 0, "indice": "Divise 120 par le nombre de personnes.", "explicationFalc": "120 / 4 = 30 €." },
+      { "id": "ex-fi-q2", "question": "Pour que chaque personne reçoive 15 €, combien de personnes faut-il dans le groupe ?", "choix": ["8 personnes", "6 personnes", "10 personnes", "15 personnes"], "bonneReponseIndex": 0, "indice": "Cherche x tel que 120/x = 15.", "explicationFalc": "120 / 15 = 8 personnes." }
+    ]
+  },
+  {
+    "id": "ex-variations-fonction",
+    "chapitreId": "variations-fonction",
+    "enonce": "La température d'un four évolue ainsi : elle augmente de 20°C à 200°C entre 0 et 10 minutes, reste constante à 200°C entre 10 et 30 minutes, puis redescend à 20°C entre 30 et 40 minutes.",
+    "questions": [
+      { "id": "ex-vf-q1", "question": "Sur quel intervalle la température est-elle croissante ?", "choix": ["[0 ; 10]", "[10 ; 30]", "[30 ; 40]", "[0 ; 40]"], "bonneReponseIndex": 0, "indice": "Cherche la période où la température monte.", "explicationFalc": "Entre 0 et 10 minutes, la température passe de 20°C à 200°C : elle est croissante." },
+      { "id": "ex-vf-q2", "question": "Quelle est la température maximale atteinte par le four ?", "choix": ["200°C", "20°C", "100°C", "220°C"], "bonneReponseIndex": 0, "indice": "C'est la valeur atteinte pendant le palier constant.", "explicationFalc": "Le four atteint et maintient 200°C, sa température maximale." }
+    ]
+  },
+  {
+    "id": "ex-reperage-plan",
+    "chapitreId": "reperage-plan",
+    "enonce": "Sur un plan de ville repéré par des coordonnées, l'école est au point E(2 ; 3) et la bibliothèque au point B(6 ; 6).",
+    "questions": [
+      { "id": "ex-rp-q1", "question": "Quelle est la distance entre l'école et la bibliothèque ?", "choix": ["5 km", "7 km", "25 km", "4 km"], "bonneReponseIndex": 0, "indice": "Utilise la formule de la distance avec les différences de coordonnées (4 et 3).", "explicationFalc": "√(4² + 3²) = √(16+9) = √25 = 5 km." },
+      { "id": "ex-rp-q2", "question": "Quelles sont les coordonnées du point exactement à mi-chemin entre l'école et la bibliothèque ?", "choix": ["(4 ; 4,5)", "(4 ; 3)", "(8 ; 9)", "(2 ; 3)"], "bonneReponseIndex": 0, "indice": "Fais la moyenne des abscisses et des ordonnées.", "explicationFalc": "((2+6)/2 ; (3+6)/2) = (4 ; 4,5)." }
+    ]
+  },
+  {
+    "id": "ex-vecteurs",
+    "chapitreId": "vecteurs",
+    "enonce": "Un drone part du point A(1 ; 2) et se déplace jusqu'au point B(5 ; 8).",
+    "questions": [
+      { "id": "ex-vec-q1", "question": "Quelles sont les coordonnées du vecteur de déplacement AB ?", "choix": ["(4 ; 6)", "(6 ; 10)", "(5 ; 8)", "(4 ; 4)"], "bonneReponseIndex": 0, "indice": "Soustrais les coordonnées de A à celles de B.", "explicationFalc": "(5-1 ; 8-2) = (4 ; 6)." },
+      { "id": "ex-vec-q2", "question": "Le drone effectue ensuite un second déplacement de vecteur (2 ; -1). Quelles sont les coordonnées de sa position finale ?", "choix": ["(7 ; 7)", "(3 ; 9)", "(7 ; 9)", "(5 ; 7)"], "bonneReponseIndex": 0, "indice": "Ajoute les coordonnées du second vecteur à celles du point B.", "explicationFalc": "(5+2 ; 8-1) = (7 ; 7)." }
+    ]
+  },
+  {
+    "id": "ex-trigonometrie",
+    "chapitreId": "trigonometrie",
+    "enonce": "Un technicien installe un panneau solaire incliné. Le panneau mesure 2 m de long (l'hypoténuse) et fait un angle de 40° avec le toit horizontal (sin 40° ≈ 0,64 ; cos 40° ≈ 0,77).",
+    "questions": [
+      { "id": "ex-trig-q1", "question": "Quelle est la hauteur du panneau par rapport au toit ?", "choix": ["Environ 1,28 m", "Environ 1,54 m", "Environ 2 m", "Environ 0,64 m"], "bonneReponseIndex": 0, "indice": "hauteur = hypoténuse × sin(angle).", "explicationFalc": "2 × 0,64 = 1,28 m." },
+      { "id": "ex-trig-q2", "question": "Quelle est la longueur horizontale occupée par le panneau, le long du toit ?", "choix": ["Environ 1,54 m", "Environ 1,28 m", "Environ 2 m", "Environ 0,77 m"], "bonneReponseIndex": 0, "indice": "adjacent = hypoténuse × cos(angle).", "explicationFalc": "2 × 0,77 = 1,54 m." }
+    ]
+  },
+  {
+    "id": "ex-statistiques",
+    "chapitreId": "statistiques",
+    "enonce": "Un professeur relève les notes sur 20 de 6 élèves à un contrôle : 8, 12, 14, 14, 16, 18.",
+    "questions": [
+      { "id": "ex-stat-q1", "question": "Quelle est la moyenne de cette série (arrondie) ?", "choix": ["Environ 13,7", "14", "12", "16"], "bonneReponseIndex": 0, "indice": "Additionne les 6 notes, puis divise par 6.", "explicationFalc": "82 / 6 ≈ 13,7." },
+      { "id": "ex-stat-q2", "question": "Quelle est la médiane de cette série ?", "choix": ["14", "13", "12", "16"], "bonneReponseIndex": 0, "indice": "Avec un nombre pair de valeurs, la médiane est la moyenne des deux valeurs centrales.", "explicationFalc": "Les deux valeurs centrales sont 14 et 14 : la médiane est 14." }
+    ]
+  },
+  {
+    "id": "ex-probabilites",
+    "chapitreId": "probabilites",
+    "enonce": "Une urne contient 3 boules rouges, 5 boules bleues et 2 boules vertes.",
+    "questions": [
+      { "id": "ex-proba-q1", "question": "Quelle est la probabilité de tirer une boule bleue ?", "choix": ["1/2", "3/10", "1/5", "2/5"], "bonneReponseIndex": 0, "indice": "Divise le nombre de boules bleues par le nombre total de boules.", "explicationFalc": "5 boules bleues sur 10 au total : 5/10 = 1/2." },
+      { "id": "ex-proba-q2", "question": "Quelle est la probabilité de ne pas tirer une boule rouge ?", "choix": ["7/10", "3/10", "1/2", "2/5"], "bonneReponseIndex": 0, "indice": "C'est le contraire de tirer une boule rouge : 1 moins la probabilité de rouge.", "explicationFalc": "P(rouge) = 3/10, donc P(pas rouge) = 1 - 3/10 = 7/10." }
+    ]
+  },
+  {
+    "id": "ex-algorithmique-bases",
+    "chapitreId": "algorithmique-bases",
+    "enonce": "On veut écrire un algorithme qui calcule la somme des nombres de 1 à 5 à l'aide d'une boucle.",
+    "questions": [
+      { "id": "ex-algo-q1", "question": "Quelle valeur initiale doit avoir la variable somme avant la boucle ?", "choix": ["0", "1", "5", "Aucune valeur nécessaire"], "bonneReponseIndex": 0, "indice": "Une somme commence toujours à zéro avant d'ajouter des valeurs.", "explicationFalc": "somme doit valoir 0 au départ, sinon le résultat serait faux." },
+      { "id": "ex-algo-q2", "question": "Combien de fois la boucle doit-elle s'exécuter pour additionner les nombres de 1 à 5 ?", "choix": ["5 fois", "4 fois", "1 fois", "10 fois"], "bonneReponseIndex": 0, "indice": "Compte les nombres de 1 à 5.", "explicationFalc": "Il y a 5 nombres (1,2,3,4,5), la boucle doit donc tourner 5 fois." }
+    ]
+  },
+  {
+    "id": "ex-python-bases",
+    "chapitreId": "python-bases",
+    "enonce": "On exécute ce programme : somme = 0, puis une boucle « for i in range(4) » qui fait somme = somme + i.",
+    "questions": [
+      { "id": "ex-py-q1", "question": "Quelles valeurs prend i successivement pendant la boucle ?", "choix": ["0, 1, 2, 3", "1, 2, 3, 4", "0, 1, 2, 3, 4", "1, 2, 3, 4, 5"], "bonneReponseIndex": 0, "indice": "range(4) commence à 0 et s'arrête juste avant 4.", "explicationFalc": "range(4) génère 0, 1, 2, 3." },
+      { "id": "ex-py-q2", "question": "Quelle est la valeur finale de somme ?", "choix": ["6", "4", "10", "3"], "bonneReponseIndex": 0, "indice": "Additionne toutes les valeurs prises par i.", "explicationFalc": "0 + 1 + 2 + 3 = 6." }
+    ]
+  },
+  {
+    "id": "ex-loi-ohm",
+    "chapitreId": "loi-ohm",
+    "enonce": "Un radiateur électrique a une résistance de 50 Ω. Il est branché sous une tension de 230 V.",
+    "questions": [
+      { "id": "ex-oh-q1", "question": "Quelle intensité traverse le radiateur ?", "choix": ["4,6 A", "46 A", "0,22 A", "11 500 A"], "bonneReponseIndex": 0, "indice": "I = U / R.", "explicationFalc": "I = 230 / 50 = 4,6 A." },
+      { "id": "ex-oh-q2", "question": "Si on remplace le radiateur par un autre de résistance 100 Ω, sous la même tension, l'intensité sera :", "choix": ["Plus faible (2,3 A)", "Plus forte (9,2 A)", "Identique (4,6 A)", "Nulle"], "bonneReponseIndex": 0, "indice": "Une résistance plus grande, à tension égale, donne une intensité plus petite.", "explicationFalc": "I = 230/100 = 2,3 A, c'est bien plus faible qu'avant." }
+    ]
+  },
+  {
+    "id": "ex-decrire-un-systeme",
+    "chapitreId": "decrire-un-systeme",
+    "enonce": "On observe de l'eau dans trois récipients : de la glace à -10°C, de l'eau liquide à 20°C, et de la vapeur d'eau à 105°C.",
+    "questions": [
+      { "id": "ex-dus-q1", "question": "Dans quel récipient les molécules d'eau sont-elles les plus ordonnées et les moins mobiles ?", "choix": ["La glace (solide)", "L'eau liquide", "La vapeur d'eau", "Les trois de la même façon"], "bonneReponseIndex": 0, "indice": "Pense à l'état où les molécules sont figées dans une structure.", "explicationFalc": "Dans le solide (la glace), les molécules sont ordonnées et immobiles les unes par rapport aux autres." },
+      { "id": "ex-dus-q2", "question": "Pour faire fondre la glace, quel changement d'état doit-on provoquer ?", "choix": ["Une fusion", "Une vaporisation", "Une solidification", "Une condensation"], "bonneReponseIndex": 0, "indice": "C'est le passage de l'état solide à l'état liquide.", "explicationFalc": "La fusion est le passage du solide au liquide." }
+    ]
+  },
+  {
+    "id": "ex-mole-quantite-matiere",
+    "chapitreId": "mole-quantite-matiere",
+    "enonce": "On dispose de 90 g d'eau. La masse molaire de l'eau est 18 g/mol.",
+    "questions": [
+      { "id": "ex-mole-q1", "question": "Quelle quantité de matière d'eau cela représente-t-il ?", "choix": ["5 mol", "4 mol", "90 mol", "18 mol"], "bonneReponseIndex": 0, "indice": "n = m / M.", "explicationFalc": "n = 90 / 18 = 5 mol." },
+      { "id": "ex-mole-q2", "question": "Combien de molécules d'eau environ cela représente-t-il (nombre d'Avogadro ≈ 6,02 × 10²³) ?", "choix": ["Environ 3 × 10²⁴", "Environ 6 × 10²³", "Environ 1,2 × 10²³", "Environ 3 × 10²³"], "bonneReponseIndex": 0, "indice": "Multiplie la quantité de matière par le nombre d'Avogadro.", "explicationFalc": "5 × 6,02×10²³ ≈ 3 × 10²⁴ molécules." }
+    ]
+  },
+  {
+    "id": "ex-transformation-chimique",
+    "chapitreId": "transformation-chimique",
+    "enonce": "On fait réagir du carbone avec du dioxygène selon l'équation : C + O₂ → CO₂.",
+    "questions": [
+      { "id": "ex-tc-q1", "question": "Combien de molécules de CO₂ obtient-on à partir de 5 atomes de carbone (en excès de O₂) ?", "choix": ["5", "10", "1", "2"], "bonneReponseIndex": 0, "indice": "L'équation montre que 1 atome de carbone donne 1 molécule de CO₂.", "explicationFalc": "Le rapport est de 1 pour 1 : 5 atomes de carbone donnent 5 molécules de CO₂." },
+      { "id": "ex-tc-q2", "question": "Si la masse totale des réactifs consommés est de 12 g, quelle est la masse de CO₂ formé ?", "choix": ["12 g", "6 g", "24 g", "0 g"], "bonneReponseIndex": 0, "indice": "La masse totale se conserve pendant une réaction chimique.", "explicationFalc": "La masse des produits formés est égale à la masse des réactifs consommés : 12 g." }
+    ]
+  },
+  {
+    "id": "ex-dosage-simple",
+    "chapitreId": "dosage-simple",
+    "enonce": "On dissout 0,5 mol de sel dans 250 mL (0,25 L) d'eau pour préparer une solution.",
+    "questions": [
+      { "id": "ex-dos-q1", "question": "Quelle est la concentration molaire de cette solution ?", "choix": ["2 mol/L", "0,5 mol/L", "0,125 mol/L", "1,25 mol/L"], "bonneReponseIndex": 0, "indice": "C = n / V, avec V en litres.", "explicationFalc": "C = 0,5 / 0,25 = 2 mol/L." },
+      { "id": "ex-dos-q2", "question": "On ajoute de l'eau pour obtenir un volume total de 0,5 L, sans ajouter de sel. Quelle est la nouvelle concentration ?", "choix": ["1 mol/L", "2 mol/L", "4 mol/L", "0,5 mol/L"], "bonneReponseIndex": 0, "indice": "n ne change pas, seul V double.", "explicationFalc": "C = 0,5 / 0,5 = 1 mol/L : la concentration est divisée par 2 car le volume a doublé." }
+    ]
+  },
+  {
+    "id": "ex-decrire-un-mouvement",
+    "chapitreId": "decrire-un-mouvement",
+    "enonce": "Un coureur parcourt 400 m en 50 secondes à vitesse constante.",
+    "questions": [
+      { "id": "ex-mvt-q1", "question": "Quelle est sa vitesse moyenne en m/s ?", "choix": ["8 m/s", "50 m/s", "400 m/s", "0,125 m/s"], "bonneReponseIndex": 0, "indice": "vitesse = distance / temps.", "explicationFalc": "400 / 50 = 8 m/s." },
+      { "id": "ex-mvt-q2", "question": "À cette vitesse, quelle distance parcourrait-il en 2 minutes (120 secondes) ?", "choix": ["960 m", "800 m", "480 m", "1000 m"], "bonneReponseIndex": 0, "indice": "distance = vitesse × temps.", "explicationFalc": "8 × 120 = 960 m." }
+    ]
+  },
+  {
+    "id": "ex-forces-principe-inertie",
+    "chapitreId": "forces-principe-inertie",
+    "enonce": "Une caisse est tirée sur le sol par deux forces horizontales opposées : une force de traction de 80 N vers la droite, et une force de frottement de 80 N vers la gauche.",
+    "questions": [
+      { "id": "ex-force-q1", "question": "Que peut-on dire du mouvement de la caisse d'après le principe d'inertie ?", "choix": ["Sa vitesse ne change pas", "Elle accélère vers la droite", "Elle accélère vers la gauche", "Elle s'arrête immédiatement"], "bonneReponseIndex": 0, "indice": "Additionne les deux forces en tenant compte de leurs sens opposés.", "explicationFalc": "80 N à droite et 80 N à gauche s'annulent : la résultante est nulle, donc la vitesse ne change pas." },
+      { "id": "ex-force-q2", "question": "Si la force de frottement diminue à 50 N, que se passe-t-il ?", "choix": ["La caisse accélère vers la droite", "La caisse accélère vers la gauche", "La caisse reste immobile", "La caisse ralentit"], "bonneReponseIndex": 0, "indice": "Les forces ne se compensent plus : il reste une force résultante vers la droite.", "explicationFalc": "80 N - 50 N = 30 N vers la droite : la caisse accélère dans cette direction." }
+    ]
+  },
+  {
+    "id": "ex-poids-masse",
+    "chapitreId": "poids-masse",
+    "enonce": "Un astronaute a une masse de 80 kg. Sur Terre, g ≈ 9,8 N/kg ; sur Mars, g ≈ 3,7 N/kg.",
+    "questions": [
+      { "id": "ex-pm-q1", "question": "Quel est le poids de l'astronaute sur Terre ?", "choix": ["784 N", "80 N", "296 N", "8,2 N"], "bonneReponseIndex": 0, "indice": "P = m × g.", "explicationFalc": "P = 80 × 9,8 = 784 N." },
+      { "id": "ex-pm-q2", "question": "Quel est son poids sur Mars ?", "choix": ["296 N", "784 N", "80 N", "216 N"], "bonneReponseIndex": 0, "indice": "Utilise la même masse mais avec le g de Mars.", "explicationFalc": "P = 80 × 3,7 = 296 N." }
+    ]
+  },
+  {
+    "id": "ex-signaux-sonores",
+    "chapitreId": "signaux-sonores",
+    "enonce": "Un éclair est observé, et le tonnerre est entendu 6 secondes plus tard. La vitesse du son dans l'air est d'environ 340 m/s.",
+    "questions": [
+      { "id": "ex-son-q1", "question": "À quelle distance environ se trouve l'orage ?", "choix": ["Environ 2040 m", "Environ 340 m", "Environ 6 m", "Environ 56,7 m"], "bonneReponseIndex": 0, "indice": "distance = vitesse × temps.", "explicationFalc": "340 × 6 = 2040 m, soit un peu plus de 2 km." },
+      { "id": "ex-son-q2", "question": "Pourquoi voit-on l'éclair avant d'entendre le tonnerre ?", "choix": ["Parce que la lumière se propage bien plus vite que le son", "Parce que le son n'existe pas pendant l'orage", "Parce que l'éclair est plus proche que le tonnerre", "Parce que le tonnerre se propage plus vite que l'éclair"], "bonneReponseIndex": 0, "indice": "Compare la vitesse de la lumière (300 000 km/s) à celle du son (340 m/s).", "explicationFalc": "La lumière voyage bien plus vite que le son, donc l'éclair est vu presque instantanément." }
+    ]
+  },
+  {
+    "id": "ex-signaux-lumineux",
+    "chapitreId": "signaux-lumineux",
+    "enonce": "Un rayon lumineux met 1,3 seconde pour parcourir la distance Terre-Lune, à une vitesse d'environ 300 000 km/s.",
+    "questions": [
+      { "id": "ex-lum-q1", "question": "Quelle est, environ, la distance Terre-Lune ?", "choix": ["Environ 390 000 km", "Environ 300 000 km", "Environ 3 900 km", "Environ 1 300 000 km"], "bonneReponseIndex": 0, "indice": "distance = vitesse × temps.", "explicationFalc": "300 000 × 1,3 = 390 000 km." },
+      { "id": "ex-lum-q2", "question": "Si la distance était deux fois plus grande, quel serait le temps de parcours de la lumière ?", "choix": ["2,6 secondes", "1,3 seconde", "0,65 seconde", "5,2 secondes"], "bonneReponseIndex": 0, "indice": "Si la distance double, le temps double aussi à vitesse constante.", "explicationFalc": "Si la distance double, le temps double aussi : 2,6 s." }
+    ]
+  },
+  {
+    "id": "ex-formes-energie",
+    "chapitreId": "formes-energie",
+    "enonce": "Un skieur de masse 60 kg est immobile en haut d'une piste. Il possède 12 000 J d'énergie potentielle.",
+    "questions": [
+      { "id": "ex-nrj-q1", "question": "Quelle forme d'énergie possède-t-il en haut de la piste, avant de partir ?", "choix": ["De l'énergie potentielle", "De l'énergie cinétique", "De l'énergie thermique", "Aucune énergie"], "bonneReponseIndex": 0, "indice": "Il est immobile mais en hauteur.", "explicationFalc": "Un objet immobile en hauteur possède de l'énergie potentielle." },
+      { "id": "ex-nrj-q2", "question": "En bas de la piste, en négligeant les frottements, quelle est son énergie cinétique ?", "choix": ["12 000 J", "6 000 J", "0 J", "24 000 J"], "bonneReponseIndex": 0, "indice": "L'énergie se conserve : toute l'énergie potentielle se transforme en énergie cinétique.", "explicationFalc": "Sans frottement, toute l'énergie potentielle (12 000 J) devient de l'énergie cinétique." }
+    ]
+  },
+  {
+    "id": "ex-puissance-electrique",
+    "chapitreId": "puissance-electrique",
+    "enonce": "Une bouilloire électrique fonctionne sous une tension de 230 V avec une intensité de 8 A.",
+    "questions": [
+      { "id": "ex-pe-q1", "question": "Quelle est sa puissance ?", "choix": ["1840 W", "238 W", "28,75 W", "3680 W"], "bonneReponseIndex": 0, "indice": "P = U × I.", "explicationFalc": "P = 230 × 8 = 1840 W." },
+      { "id": "ex-pe-q2", "question": "Si la bouilloire fonctionne pendant 15 minutes (0,25 h), quelle énergie consomme-t-elle en Wh ?", "choix": ["460 Wh", "1840 Wh", "27 600 Wh", "115 Wh"], "bonneReponseIndex": 0, "indice": "énergie = puissance × durée, avec la durée en heures.", "explicationFalc": "1840 × 0,25 = 460 Wh." }
+    ]
+  }
+]
